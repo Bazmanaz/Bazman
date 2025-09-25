@@ -1,0 +1,443 @@
+<!-- hedef.html -->
+<h1 id="alfa-beta"></h1>
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dəb və Stil - BAZMAN.AZ</title>
+  <meta name="description" content="Alfa və beta kişilərin fərqləri, onların davranışları və sosial həyatda rolu haqqında ətraflı məqalə.">
+  <link rel="stylesheet" href="../style.css">
+  <script defer src="../script.js"></script>
+  <style>
+    /* Məqalə konteyneri */
+    .card {
+      width: 90%;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    /* Başlıq */
+    .card h1.title {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    /* Mətn */
+    .card p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    /* Şəkillər */
+    .card img {
+      width: 50%;
+      height: auto;
+      display: block;
+      margin: 15px auto 30px auto;
+      border-radius: 8px;
+      object-fit: contain;
+    }
+
+    /* iframe adaptiv və scroll-suz */
+    .responsive-iframe {
+      width: 100%;
+      max-width: 310px;
+      aspect-ratio: 310 / 514;
+      border: 0;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Mobil uyğunluq */
+    @media (max-width: 768px) {
+      .card {
+        width: 95%;
+        padding: 10px;
+      }
+      .card img {
+        width: 95%;
+      }
+    }
+
+    /* Tema dəyişmə düyməsi */
+    .theme-toggle-btn {
+      cursor: pointer;
+      font-size: 1.2em;
+      padding: 5px 10px;
+      border: none;
+      background: none;
+    }
+	
+  /* Loqo ölçüsü */
+  .brand img {
+    width: 120px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+ /* Flex container əlavə olunur */
+  .page-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 90vh; /* viewport hündürlüyü */
+  }
+
+ .sidebar {
+  flex: 0 0 20%; /* ekranın 20%-i qədər */
+  position: sticky;
+  top: 20px;
+  height: calc(100vh - 40px);
+}
+
+
+  .sidebar iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  /* Sağ blok (məqalələr) */
+  .content {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  /* Dark theme sağ blok üçün */
+  body.dark-theme .content {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  body.dark-theme .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+  }
+
+  /* Mobil uyğunluq */
+  @media (max-width: 768px) {
+    .page-container {
+      flex-direction: column;
+      height: auto;
+    }
+    .sidebar {
+      position: relative;
+      top: 0;
+      height: 300px;
+    }
+    .content {
+      overflow-y: visible;
+    }
+  }
+  
+  /* Chrome, Safari, Opera üçün */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox üçün */
+body {
+  scrollbar-width: none;
+}
+
+/* IE və Edge üçün */
+body {
+  -ms-overflow-style: none;
+}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="https://i.imgur.com/LOhQRks.jpg" alt="BAZMAN.AZ loqosu">
+    </div>
+    <nav class="nav">
+      <a href="../index.html">Əsas</a>
+      <a href="meqaleler.html">Məqalələr</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle-btn">🌙</button>
+  </header>
+  
+   <div class="page-container">
+    <!-- Sol blok -->
+    <aside class="sidebar">
+      <iframe class="responsive-iframe" src="render.html" title="Məzmun iframe-i"></iframe>
+    </aside>
+
+    <!-- Sağ blok -->
+	 
+		<section class="content">
+<h1 id="8-kisi-kostumu"></h1>		
+    <main class="grid">
+    <article class="card">
+      <h1 class="title">8 qüsursuz kişi kostyumu sirri</h1>
+<h3>Biz kostyumun qüsursuz görünməsini təmin edən səkkiz sirrdən danışacağıq.</h3>
+<img src='https://i.imgur.com/5tZ6adP.jpeg' alt="Kost1">
+<p>Mükəmməlliyə can atmaq – perfeksionistlərin xüsusiyyətidir. Ümumiyyətlə, bu, yaxşı keyfiyyətdir, amma çox vaxt yorucu olur, çünki idealın ardınca qaçmaq böyük güc aparır. Ancaq hər şeyi yaxşı və keyfiyyətli görmək istəyində “qızıl orta” qorunarsa, həm gözəl nəticələr əldə etmək, həm də enerjini saxlamaq mümkündür.</p>
+<p>Yaxşı tikilmiş və bədənə uyğunlaşdırılmış kişi kostyumu artıq uğurun 90%-idir. Amma elə 10% var ki, sahibinə “ideal kostyum” olsa belə, mənfi təsir göstərə bilər.</p>
+<p>Bugünkü məqalədə evdən çıxmazdan öncə diqqət tələb edən kişi kostyumundan danışacağıq. Onun qüsursuz görünməsini təmin edən səkkiz sirri açıqlayacağıq.</p>
+<p><b>1.Qalstuk düyünü ilə yaxalıq arasında boşluq olmamalıdır.</b>Əgər boşluq varsa, qalstuk obrazda doğru yeri tutmayacaq və lazım olan təsiri yaratmayacaq. Bunu aradan qaldırmaq üçün qalstuku mərkəzdə yerləşdirmək və daha möhkəm bağlamaq kifayətdir.</p>
+<img src='https://i.imgur.com/ZbnGMUE.jpeg' alt="Kost2">
+<p><b>2.Yaxalığın altından qalstuk parçasının zolağı (yanlardan və arxadan) görünməməlidir.</b> O, köynəyin yaxalığının altında gizlənməlidir.</p>
+<p><b>3.Qalstuk üzərində kiçik bir çökəklik (bir neçəsini də etmək olar) olduqda çox eleqant və dəbli görünəcək.</b> Düz səth də yaxşı görünür. Bu məqam tamamilə zövq məsələsidir.</p>
+<img src='https://i.imgur.com/Iy0eYSB.jpeg' alt="Kost3">
+<p><b>4.Çəkmə cibindən görünən döş ciblik içinə batmamalıdır.</b> Bu, dekorativ elementdir, buna görə də onun bir hissəsi görünməlidir. Belə problem yaşanmaması üçün əvvəlcədən uyğun ölçüdə ciblik seçmək lazımdır. Əgər ciblik kiçikdirsə, onu elə formalaşdırmaq olar ki, alt hissəsində həcmi olsun. Beləliklə, aksesuar cibin içində itib getməyəcək. Həcmi formalaşdırarkən həddi aşmaq olmaz, əks halda cib qeyri-təbii ölçü alacaq.</p>
+<img src='https://i.imgur.com/pnaJrTL.jpeg' alt="Kost4">
+<p><b>5.Köynəyin qollarını bir az pencəkdən çıxarmaq lazımdır.</b> Manjetlərin bir neçə santimetr görünməsi kifayətdir.</p>
+<img src='https://i.imgur.com/XYNGQ27.jpeg' alt="Kost5">
+<p><b>6.Kostyumun üzərində toz, sap və ya tük olmamalıdır.</b> Onları xüsusi fırça ilə asanlıqla təmizləmək olar. Bu məqsəd üçün yapışqan örtüklü roller-fırça çox uyğundur.</p>
+<p><b>7.Ayaqqabı kostyum qədər qüsursuz olmalıdır.</b> Onu diqqətlə təmizləmək və axşamdan mumlamaq lazımdır. Amma evdən çıxmazdan əvvəl bir neçə dəfə fırça ilə çəkərək təravətli parıltı vermək gərəkdir.</p>
+<img src='https://i.imgur.com/1D7SIua.jpeg' alt="Kost6">
+<p>Artıq bu sirləri və incəlikləri bildiyin üçün sevimli kostyumunda həmişə qüsursuz görünəcəksən.</p>
+    </article>
+  </main>
+  
+  <h1 id="bahali-qoxmaq"></h1>	
+  <main class="grid">
+    <article class="card">
+      <h1 class="title">Necə bahalı qoxu almaq olar: kişilər üçün TOP ətirlər.</h1>
+<p style="text-align: center;"><strong>Qoxu istənilən sözdən daha çox sizin haqqınızda danışa bilən bir dildir. Elit kişilər üçün ətirlər adətən davamlı, dərin və zəngin olur. Özünüz üçün belə bir ətir seçmək üçün hisslərinizə güvənməyə və bir neçə fərqli variantı sınamağa dəyər.</strong></p>
+<img src='https://i.imgur.com/y6Nleck.png' alt="Duxu">
+<p>Ətir sadəcə qoxuların qarışığı deyil, bu sizin tərzinizin və xarakterinizin vizit kartıdır. Elit kişilər üçün ətirlər kişilərin qarderobunun ayrılmaz hissəsinə çevrilərək, dəbdəbə və zərifliyi əks etdirir. Bu mətnimizdə hansı ətir notlarının kişini yaddaqalan edəcəyini, elit ətirlərin özəlliyini öyrənəcəyik.Ətirləri sərfəli qiymətə BAZMAN.AZ-da əldə edə bilərsiniz.</p>
+<p><b>Elit Kişi Ətirlərinin Xüsusiyyətləri</b></p>
+<p>Elit kişi ətirləri öz unikal və davamlılığı ilə fərqlənir. Bu ətirlərin qoxuları adətən dərin, çoxşaxəli və cəzbedicidir. Bu ətirlər nadir və bahalı inqredientlərin notlarına malikdir, bu da onlara bənzərsiz bir buket bəxş edir. Tez-tez elit kişi ətirləri tanınmış ətirşünaslar tərəfindən hazırlanır ki, bu da ona əlavə dəyər və unikal xüsusiyyət qatır.</p>
+<p><b>Elit Kişi Ətirlərinin TOP Siyahısı</b></p>
+<p><b>Creed Aventus.</b></p>
+<p>Bu ətir kişiliyin və dəbdəbənin təcəssümüdür, bu elit kişi ətiridir. Təravətli sitrus notları qara qarağat və vanil notları ilə qarışaraq zərif və dinamik bir ətir yaradır.</p>
+<p><b>Tom Ford Tobacco Vanille.</b></p>
+<p>Bu ətir tütün, vanil və kakao notlarının birləşməsindən ibarətdir, bu da sizə güvən və möhkəmlik hissi bəxş edən isti və davamlı bir qoxu yaradır.</p>
+<p><b>Dior Sauvage.</b></p>
+<p>Bu, elit kişi ətiridir. Ətir berqamot, ambroksan və buxur notlarının təravəti ilə xarakterizə olunur, bu da müasir kişilər üçün ideal olan dinamik və cəlbedici bir qoxu yaradır.</p>
+<p><b>Ətri "Bahalı" Eləyən Nədir?</b></p>
+<p>Bahalı ətir təkcə orijinal komponentlər deyil, həm də ətirşünasın ustalığıdır. Bahalı elit kişi ətiri bir sənət əsəri kimi, hər bir komponentin unikal və bənzərsiz bir ətir yaratmaq üçün diqqətlə seçildiyi və balanslaşdırıldığı bir incəlikdir. Bu ətirlər davamlıdır, onların notları dəridə inkişaf edir və zamanla açılaraq, ətri daha dərin və zəngin edir.</p>
+<p><b>Öz Elit Ətrinizi Necə Seçməli?</b></p>
+<p>Ətirləri Araşdırın.</p>
+<p>Hansı notların sizə daha çox xoş gəldiyini anlamaq üçün fərqli ətirləri sınayın. Ətirlərin zamanla necə dəyişdiyinə fikir verin.</p>
+<p><b>Mövsumu və Hadisəni Nəzərə Alın.</b></p>
+<p>Yay ayları üçün təravətli və sitrus ətirləri uyğundursa, axşam tədbirləri üçün daha zəngin və isti ətirləri seçmək daha yaxşıdır.</p>
+<p><b>Hisslərinizə Güvənin.</b></p>
+<p>Ətir seçərkən sizin şəxsi zövqünüz ən vacib amildir. Xarici tövsiyələrdən əlavə, öz hiss və üstünlüklərinizə güvənin.</p>
+<p><b>Nəticə</b></p>
+<p>Elit kişi ətirləri sizin obrazınıza və özünə güvəninə qoyulan bir sərmayədir. Düzgün seçilmiş ətir sizin xarakterinizi vurğulaya və sizi unudulmaz edə bilər. Bonvivant elit ətirlər internet mağazasında dünya brendlərinin ən yaxşı ətirlərini tapa bilərsiniz, Image Skincare kosmetik vasitələri isə sizin təbii gözəlliyinizi vurğulayaraq obrazınızı tamamlamağa kömək edəcək.</p>
+    </article>
+  </main>
+    
+  <h1 id="en yaxsi parfum"></h1>
+  <main class="grid">
+    <article class="card">
+      <h1 class="title">Ən yaxşı parfümləri necə seçmək və haradan sifariş etmək olar</h1>
+<h3>Ətirlər dünyasında xüsusi bir kateqoriya mövcuddur - **niş parfümeriya**. Bu eksklüziv yaradıcılıq nümunələri öz unikallığı və keyfiyyəti ilə qeyri-adi qoxu həvəskarlarını cəlb edir. Bəs ideal ətri necə seçmək və onu onlayn mağazadan necə almaq olar? Gəlin birlikdə, xüsusilə **"Poetry Home"** niş parfümeriya mağazasına diqqət yetirərək bu məsələni aydınlaşdıraq.</h3>
+<img src='https://i.imgur.com/3J8lW6y.jpeg' alt="parfum1">
+<h3>Niş parfümeriyanın adi parfümeriyadan fərqi nədir?</h3>
+<p>Niş parfümeriya kütləvi bazarda satılan ətirlərdən əhəmiyyətli dərəcədə fərqlənir. Əsas fərqlər bunlardır:</p>
+<p>Kompozisiyaların unikallığı:** Niş ətirlərin tərkibində tez-tez kəhrəba, ilanq-ilanq və ya lədan kimi qeyri-adi və nadir inqrediyentlər olur.</p>
+<p>Məhdud tiraj:** Kütləvi brendlərdən fərqli olaraq, niş ətirlər az partiyalarla buraxılır ki, bu da onları daha eksklüziv edir.</p>
+<p>Ətirli maddələrin konsentrasiyası:** Niş parfümeriya, adətən, daha yüksək konsentrasiyalı ətirli yağlara malik olur ki, bu da qoxunun dəridə daha uzun müddət qalmasını təmin edir.</p>
+<p>Fərdi yanaşma:** Niş ətirlərin yaradıcıları kütləvi istehlakçının zövqünə uyğunlaşmağa deyil, müəyyən bir ideya və ya emosiyanı ifadə etməyə çalışırlar.</p>
+<h3>Elit niş parfümeriyanın adi parfümeriyadan fərqi</h3>
+<p>Elit niş parfümeriya** ətirlər dünyasında ən yüksək səviyyədir. O, adi niş parfümeriyadan aşağıdakı xüsusiyyətlərlə fərqlənir:</p>
+<p>İnqrediyentlərin müstəsna keyfiyyəti:** Ən bahalı və nadir komponentlərdən, məsələn, yüksək keyfiyyətli səməndər ağacından və ya təbii vanildən istifadə edilir.</p>
+<p>Parfümerlərin ustalığı:** Elit ətirlərin yaradılması üzərində dünyanın ən tanınmış və istedadlı parfümerləri çalışır.</p>
+<p>Unikal qablaşdırma:** Elit niş ətirləri tez-tez qara qablaşdırmada və ya əl işi zərif butulkalarda təqdim olunur.</p>
+<p>Kompozisiyanın mürəkkəbliyi:** Elit ətirlər onlarla notu özündə birləşdirərək çoxşaxəli parfümeriya kompozisiyası yarada bilir.</p>
+<h3>Pudralı ətirlər xüsusi günlər üçün elit hədiyyə kimi</h3>
+<p>Niş parfümeriya dünyasında pudralı ətirlərin xüsusi yeri var. Onlar bir neçə səbəbə görə xüsusi günlər üçün ideal bir hədiyyədir:</p>
+<p>Zəriflik:** Pudralı ətirlər zəriflik və incəliklə assosiasiya olunur.</p>
+<p>Universallıq:** Həm qadınlar, həm də kişilər üçün uyğundur.</p>
+<p>Münasiblik:** Ofisdə və ya təntənəli tədbirdə pudralı notlar hər mühitdə yaxşı səslənir.</p>
+<p>Davamlılıq:** Pudralı ətirlər dəridə uzun müddət qalır və gün ərzində özünü açır.</p>
+<h3>Elit keyfiyyətli ətirlərin qiyməti</h3>
+<p>Elit niş parfümeriyanın qiyməti yüksək görünə bilər, lakin bu, bir neçə amillə əsaslandırılır:</p>
+<p>İnqrediyentlərin keyfiyyəti:** Təbii və nadir komponentlərdən istifadə ətrin dəyərini əhəmiyyətli dərəcədə artırır.</p>
+<p>Eksklüzivlik:** Məhdud buraxılış hər bir butulkanı daha dəyərli edir.</p>
+<p>Uzunmüddətli istifadə:** Yüksək konsentrasiya ətirdən daha uzun müddət istifadə etməyə imkan verir.</p>
+<p>Unikallıq:** Siz nadir bir ətirlə kütlədən fərqlənmək imkanı üçün ödəniş edirsiniz.</p>
+<p>Niş parfümeriya almaq üçün ixtisaslaşmış mağazalara diqqət yetirmək lazımdır. Ukraynada ən məşhurlarından biri **Poetry Home** hesab olunur. Burada siz keyfiyyətli ətirlərin geniş çeşidini, o cümlədən yeni parfümeriya məhsullarını və nadir kompozisiyaları tapa bilərsiniz.</p>
+<h3>İdeal ətrin seçimi: fərdiliyə gedən yol</h3>
+<p>Həqiqi niş ətrin seçimi özünüdərk və fərdiliyi ifadə etmək üçün bir səyahətdir. Seçim edərkən bir neçə amili nəzərə almaq vacibdir:</p>
+<p>Şəxsi üstünlüklər:** Hansı ətirlərin xoşunuza gəldiyini müəyyənləşdirin - şirin, kəskin, meşə qoxulu və ya bəlkə də südlü notları olanlar.</p>
+<p>İstifadə məqsədi:** Ofis üçün gündəlik istifadə və ya xüsusi bir tədbir üçün uyğun ətri seçin.</p>
+<p>Mövsümilik:** Bəzi ətirlər ilin müəyyən vaxtlarında daha yaxşı açılır. Məsələn, təravətli sitrus notları yay üçün, isti ağac notları isə qış üçün idealdır.</p>
+<p>Davamlılıq:** Ətrin dərinizdə nə qədər qaldığına diqqət yetirin.</p>
+<p>Kompozisiyanın unikallığı:** Qeyri-adi not birləşmələri olan ətirləri axtarın, məsələn, üzüm və nanə və ya vanil və lədan.</p>
+<p>Tərcihlərinizi müəyyənləşdirmək çətindirsə, niş parfümeriya dünyasındakı əsas tendensiyalara nəzər salaq:</p>
+<p>Getdikcə daha çox brend təbii inqrediyentlərə və ekoloji təmiz istehsala üstünlük verir.</p>
+<p>Az sayda notdan ibarət, lakin hər birinin ətrin açılmasında vacib rol oynadığı kompozisiyalar populyarlaşır.</p>
+<p>Kişi və qadın ətirləri arasındakı sərhədlər getdikcə silinir və **uniseks** ətirlərə yer verilir.</p>
+<p> Səyahət imkanlarının məhdud olduğu şəraitdə, ekzotik yerlərin atmosferini çatdıran ətirlərin populyarlığı artır. Məsələn, **Poetry Home** kolleksiyası dünyanın müxtəlif paytaxtlarına və meqapolislərinə (Paris, Roma, Kiyev, Barselona və s.) həsr olunub.</p>
+<p>Bu tendensiyalar müasir istehlakçıların ətir seçimində fərdiliyə, ekoloji təmizliyə və çoxşaxəliliyə olan meylini əks etdirir.</p>
+<h3>Ən yaxşı niş parfümü haradan sifariş etmək olar?</h3>
+<p>deal niş ətri sifariş etmək üçün **Poetry Home** ixtisaslaşmış onlayn mağazasına müraciət etməyi tövsiyə edirik. Burada sizi gözləyir:</p>
+<p>Aparıcı niş brendlərinin eksklüziv ətirlərinin geniş çeşidi.</p>
+<p>Tam ölçülü butulkanı almadan əvvəl sınaq nümunələri sifariş etmək imkanı.</p>
+<p>Sizə ən uyğun ətri seçməyə kömək edəcək təcrübəli mütəxəssislərin məsləhəti.</p>
+<p>Təqdim olunan bütün məhsulların orijinallığına və yüksək keyfiyyətinə zəmanət.</p>
+<p>Bundan əlavə, mağazanın çeşidində keyfiyyətinə görə xarici analoqlarından geri qalmayan Ukrayna istehsalı parfümeriyanı da tapa bilərsiniz.</p>
+<h3>Ətir ruhun əksidir</h3>
+<p>Niş ətrin seçimi sadəcə bir alış-veriş deyil, bu, şəxsiyyətin bir hissəsinin, insanın daxili aləminin əksinin seçimidir. Niş parfümeriya öz fərdiliyini ifadə etməyə, xarakterini vurğulamağa və təkrarolunmaz bir üslub yaratmağa imkan verir.</p>
+<p>Unutmayın ki, yaxşı ətir özünüzə edilən bir investisiyadır. Təcrübə etməkdən və sizin "vizit kartınız" olacaq həmin ətri axtarmaqdan çəkinməyin. **Poetry Home** niş parfümeriya mağazası zərif ətirlər dünyasına bələdçiniz olsun, burada hər bir butulka bir sənət əsəri, hər bir qoxu isə öz hekayəsini gözləyən bir nağıldır.mək və haradan sifariş etmək olar?</p>
+<p>Ətirlər dünyasında xüsusi bir kateqoriya mövcuddur - niş parfümeriya. Bu eksklüziv yaradıcılıq nümunələri öz unikallığı və keyfiyyəti ilə qeyri-adi qoxu həvəskarlarını cəlb edir. Bəs ideal ətri necə seçmək və onu onlayn mağazadan necə almaq olar? Gəlin birlikdə, xüsusilə "Poetry Home" niş parfümeriya mağazasına diqqət yetirərək bu məsələni aydınlaşdıraq.</p>
+    </article>
+  </main>
+
+ <h1 id="4-kisi-aksesuari"></h1>
+ <main class="grid">
+    <article class="card">
+      <h1 class="title">Dörd kişi aksessuarı, sənə izdiham arasında fərqlənməyə kömək edəcək</h1>
+<h3>Əgər sən stil sahibi və maraqlı aksessuarlara üstünlük verirsənsə, bu məqalə sənin üçün nəzərdə tutulub. Burada dörd adi əşyanın insanlardan fərqlənməyə necə kömək etdiyini açıqlayacağıq.</h3>
+<img src='https://i.imgur.com/bmSG51j.jpeg' alt="Aksess1">
+<p>Bəzi moda ekspertləri digərlərindən bir az yaxşı geyinməyi tövsiyə edir. Belə üsulla izdiham arasında fərqlənmək, amma “qara quş” olmamaq mümkündür. Bunu həyata keçirmək üçün bir neçə effektiv yol var.</p>
+<p><b>Birinci yol</b> – digərlərinin geyindiyi üslubu eyni saxlamaq, amma keyfiyyəti daha yüksək paltarlar seçmək. Keyfiyyət istehsalçı, dizayn və ya kəsimlə bağlı ola bilər. Yüksək keyfiyyətli paltar həm zövq verir, həm də rahatlıq təmin edir.</p>
+<p><b>İkinci yol</b> – əməkdaşların və şəhər sakinlərinin adətən geyinmədiyi paltarları seçmək. Burada ölçünü qorumaq vacibdir, yəni həddən artıq getməmək lazımdır. Bu halda obrazın uyğunluğunu və stilini diqqətlə qiymətləndirmək lazımdır.</p>
+<p>Həmçinin, obrazı tamamlayan və izdiham arasında fərqlənməyə kömək edən aksessuarlara diqqət etmək olar. Onlar bunlardır:</p>
+<p><b>1.Döş ciblik</b>
+<img src='https://i.imgur.com/M8zWIu7.jpeg' alt="Aksess5">
+<p>Bəzi moda həvəskarları döş ciblik geyinmir, çünki bunu mənasız sayırlar. Amma əslində, bu kişi üçün stil sahibi və heç nə tələb etməyən aksessuar hesab olunur. Ciblik yalnız pencək cibindən görünməli deyil. O, jilet və hətta palto ilə də uyğundur. Lakin köynək ilə kombinasiya etmək tövsiyə edilmir.</p>
+<p>Ciblik obrazda maraqlı vurğu yarada bilər, xüsusilə aksessuar parlaq rəngdədirsə və ipək ya da kətan materialdan hazırlanıbsa. Sakit tonlu ciblik isə lukun son toxunuşu üçün uğurlu seçimdir. Ciblik seçərkən köynək və qalstukla uyğunluğunu nəzərə al.</p>
+<h3>2.Bilərzik</h3>
+<img src='https://i.imgur.com/4P6gKaS.jpg' <alt="Aksess2">
+<p>Bütün kişilər bilərzik taxmır, çünki çox bəzək sevən kimi görünmək istəmirlər. Bu sənin üçün üstünlükdür – digər insanlardan fərqlənmək və onlara oxşamamaq imkanıdır.</p>
+<p>Kişi bilərzikləri adətən dəri, gümüş, polad və ya daşdan hazırlanır. Bəzi modellərdə bir neçə material birləşdirilir.</p>
+<p>Bilərzikləri tək və ya bir neçə ədəd taxmaq olar. Lakin sayından asılı olmayaraq, onlar bir-biri ilə uyğun olmalıdır. Yaxşı və stil sahibi variant – saat və ona uyğun bilərzik kombinasiyasıdır. Bu birləşmə hətta işgüzar kostyumla da mümkündür.</p>
+<h3>3.Bandana</h3>
+<img src='https://i.imgur.com/LU9tgGE.jpeg' alt="Aksess4">
+<p>İlk baxışdan bandana anarxistlər, xuliqanlar, motosikletçilər və oxşar subkulturaların aksessuarı kimi görünür. Amma hər kəs bilmir ki, bandana Amerika kənd üslubuna da xasdır. Onu kovboylar kimi bağlamağa ehtiyac yoxdur. Bandananı boyun şalı kimi taxmaq, ikiqat düyün və ya xüsusi klips ilə sabitləmək olar. Beləliklə, obrazda cazibədar və maraqlı aksessuar yaranır.</p>
+<p>Bundan əlavə, bandanalar dərini günəş şüalarından və tozdan qoruyur. Ən yaxşısı, təbii və nəfəs alan materiallardan hazırlanmış bandanalardır və uzunluğu ikiqat düyün bağlamağa imkan verməlidir.</p>
+<h3>4.Kepka</h3>
+<img src='https://i.imgur.com/Njyv3VH.jpeg' alt="Aksess6">
+<p>20-ci əsrin ilk yarısında kişilərin əksəriyyəti küçədə baş geyimləri taxırdı. Moda kobuq, fedora, kanotye və əlbəttə ki, kepkalar idi. Əvvəllər kişi kepkasız diqqət çəkirdisə, indi onu fərqlənmək üçün istifadə etmək olar. Obraz üçün ideal seçim ivy cap kepkasıdır. Kepka yalnız geyimə uyğun olmamalıdır, həm də üzlə, xüsusilə başın forması ilə harmoniyada olmalıdır.</p>
+<p>Sadalanan aksessuarlar obrazı çox bəzəkli etmədən stilini vurğulayır və ona fərqlilik qatır. Lakin onları seçərkən uyğunluq və harmoniyanı nəzərə almaq vacibdir.</p>
+<p>Sən sadalanan aksessuarlardan hansını taxırsan?</p>
+    </article>
+  </main>
+ 
+ <h1 id="svitsort"></h1>
+ <main class="grid">
+    <article class="card">
+      <h1 class="title">Kişi svitşotları küçə modasında: onları qarderobun digər elementləri ilə necə uyğunlaşdırmaq olar</h1>
+<p style="text-align: center;"><strong>Svitşotlar çoxdan kişilərin qarderobunda populyarlıq qazanıb və gündəlik geyim tərzinin ayrılmaz hissəsinə çevrilib. Onlar rahatlığı və üslubu mükəmməl şəkildə birləşdirdiyi üçün xüsusilə küçə modasında çox populyardır.</strong></p>
+<img src='https://i.imgur.com/9r4nBIU.jpeg' alt="Svit1">
+<p>Kişi svitşotları hər yaşa uyğundur: həm gənclər, həm də yetkin kişilər üçün. Onlar qarderobun digər əsas elementləri ilə birləşərək, standart geyim dəsti yaratmağa imkan verir.</p>
+<p>Bu geyim parçası ilə həm gündəlik (dərs, iş, gəzinti üçün) həm də daha zərif, xüsusi günlər üçün (aktiv istirahət və ya dostlarla görüşlər) kombinlər yaratmaq olar.</p>
+<h3>Əsas növlər</h3>
+<p>Kişi svitşotlarının bir neçə əsas modeli mövcuddur:</p>
+<p>Klassik:** Dəyirmi yaxalıqlı, qol və ətəyi rezinkalı. Bu modellər müxtəlif obrazlar yaratmaq üçün universal hesab olunur.</p>
+<p>V-yaxalı:** Daha zərif bir variantdır, gündəlik geyinmək üçün uyğundur.</p>
+<p>Sepli:** Adətən, boyun nahiyəsində kiçik sep olur, açıq şəkildə geyinildikdə daha sərbəst bir görünüş verir</p>
+<p>Oversize:** Geniş və uzun siluetə malik bu modellər son mövsümlərin ən aktual trendidir. Dar cins şalvarlar və ya legginslərlə əla uyğunlaşır.</p>
+<p>Printli və naxışlı:** Loqolu, yazılı, həndəsi naxışlı svitşotlar görünüşə fərdilik qatır.</p>
+<p>Nazik, yüngül:** Keçid fəsilləri (yaz-payız) üçün uyğundur.</p>
+<p>Seçim şəxsi üstünlüklərdən və nəzərdə tutulan obrazdan asılıdır.</p>
+<p>Cins şalvarlar və digər şalvarlarla uyğunlaşma</p>
+<p>Klassik cins şalvar və svitşot – mükəmməl gündəlik obrazdır. Geyimlərin üslub və rəng cəhətdən oxşar olması bu kombinasiyanı daha harmonik edir. Məsələn, **oversize** svitşotlar daha çox geniş cins şalvarlarla yaxşı görünür.</p>
+<p>Svitşotlar adətən **kargo**, pambıq və ya **militar** üslublu şalvarlarla geyinilir. Lakin küçə modası fərqli modellərlə eksperimentlərə imkan verir.</p>
+<p>Gödəkçə və pencəklərlə ahəngdarlıq</p>
+<p>Burada üslub balansına riayət etmək vacibdir. Əgər svitşot printlidirsə və ya həcmlidirsə, sakit rəngli bir gödəkçə seçmək daha yaxşıdır. Əsas, sadə svitşotlarla isə qeyri-adi fasonlu pencəklərlə sərbəst şəkildə təcrübə aparmaq olar.</p>
+<p>Payız və ya keçid fəsli üçün əla seçim isti svitşotu dəri gödəkçə ilə geyinməkdir. Svitşot dirsəklərində yamaq olan düz siluetli cins gödəkçə ilə də gözəl görünür. Ancaq onu ciddi, klassik kostyumla geyinməkdən çəkinmək lazımdır.</p>
+<p>Üslub balansına və ümumi rəng palitrasına diqqət edin. O zaman svitşotlar sizin gündəlik geyim dəstləriniz üçün ideal bir əsas olacaq.</p>
+    </article>
+  </main>
+ 
+ <h1 id="deri-godekce"></h1>
+ <main class="grid">
+    <article class="card">
+      <h1 class="title">Kişi dəri gödəkçəsi: necə stil sahibi obraz yaratmalı?</h1>
+<p style="text-align: center;"><strong>Model sırasının və rəng çalarlarının çoxluğu təbii bir sual doğurur: kişi dəri gödəkçəni nə ilə geyinməlidir?</strong></p>
+<img src='https://i.imgur.com/PhFruoi.jpeg' alt="Dəri godəkcə">
+<p><b>Moda daim irəliləyir, yeni qaydalar diktə edir. Bəzi geyimlər sıradan çıxır, digərləri isə aktuallığını qoruyur. Amma elə elementlər var ki, heç vaxt köhnəlmir. Onlardan biri də kişi dəri gödəkçəsidir. O, geniş yayılıb və dəb tendensiyalarından asılı olmayaraq həmişə aktualdır. Model və rəng müxtəlifliyi isə haqlı olaraq sual doğurur: kişi dəri gödəkçəni nə ilə geyinməlidir?</b></p>
+<p> <b>Dəbli kişi dəri gödəkçə modelləri</b></p>
+<p>Bu geyim yüz ildən çox tarixində dəfələrlə dəyişib, nəticədə müxtəlif modellər formalaşıb. OLX-da qısa və uzun modellər tapmaq mümkündür. Beldən oturan gödəkçə kişi siluetini vurğulayır, amma bədən qüsurları olanlara daha boş model uyğundur. Uyğun variant seçmək üçün isə onu nələrlə kombin edəcəyinizi bilmək vacibdir.</p>
+<p>Dəri gödəkçə üsluba kişilik, sərtlik və bir qədər də cəsarət qatır. Hazırda əsas modellər bunlardır:</p>
+<p>Bomber gödəkçə** – universal modeldir, hər fiqur üçün uyğundur. Köynək, kaşmir sviter və cinslərlə harmonik görünür.</p>
+<p>Aviator gödəkçə** – müxtəlif rəngdə köynək, jemper, futbolka, klassik cins və iri çəkmələrlə uyğunlaşır.</p>
+<p>Kapşonlu gödəkçə** – üslublu görünüş üçün futbolka, tolstovka, hudi, çinos şalvar, cins və yüngül rezin altlıqlı ayaqqabı ilə yaxşı gedir.</p>
+<p>Kosuxa** – ən populyar modeldir. Onun universallığı istənilən geyimlə kombin etməyə imkan verir.</p>
+<p> <b>Hansı ayaqqabı dəri gödəkçə ilə daha yaxşı gedir?</b></p>
+<p>Qara model – klassik ayaqqabı ilə tamamlanır.</p>
+<p>Qəhvəyi model – qeyri-klassik ayaqqabı ilə uyğundur.</p>
+<p>Oksfordlar- qeyri-adi teksturada və kontrast rəngdə hər rəng kosuxa ilə uğurlu görünür.</p>
+<p>Broqlar və tünd cinslər – üsluba sərtlik və stil qatır.</p>
+<p>Qalın altlıqlı çəkmələr, köynək və klassik jemper – güclü, kişiyə xas seçimdir.</p>
+<p>Praktiklik və rahatlıq istəyənlər üçün – krossovka, idman çantası və cinslə köynək uyğun seçimdir.</p>
+    </article>
+  </main>
+  <h1 id="qollari-cirmeleme"></h1>
+ <main class="grid">
+    <article class="card">
+      <h1 class="title">Qolları çirmələnmiş köynək: qüsursuz üslubun sadə sirləri</h1>
+<p style="text-align: center;"><strong>Klassik köynək – qarderobun əsas elementi olub, həmişə aktual qalacaq. Onunla həm ciddi işgüzar, həm rəsmi axşam, həm də gündəlik obrazlar yaratmaq asandır. Sonuncuları daha rahat və ya cəsarətli etmək üçün sevimli köynəyinin qollarını çirmələ.</strong></p>
+<img src='https://i.imgur.com/tBSEh5h.jpeg' alt="Qolları çirmələmə">
+<p>Sən təəccüblənə bilərsən: “Bütöv bir məqalə qolları çirmələmək haqqında? Axı bu çətin deyil?” Həqiqətən də, sadəcə manjeti içəri qatlayıb qolu “qarmaqarışıq” yığmaq olar. Bu sürətli və sadədir. Amma belə üsul səliqəsiz, yığcam görünür, qolu sıxır və tez-tez aşağı sürüşür. Üstəlik, parçanı korlayır: büzülür və əvvəlki formasını itirir. Görüntünün hər detalı qüsursuz olsun deyə və narahatlıq yaratmasın deyə, qolları çirmələməyin düzgün yollarını öyrənmək faydalıdır.</p>
+<h3>Niyə qolları çirmələmək lazımdır?</h3>
+<p>Qolları çirmələmək geyimin rəsmi görünüşünü azaldır və ona yüngül cazibə qatır. Çirməli qollu sadə köynəkdə kişi daha özünəinamlı görünür. Bu üslub yayda şəhərdə, kurortda, qeyri-rəsmi tədbirdə, hətta işdə də uyğundur. Bundan başqa, bir neçə praktik səbəb var:</p>
+<p>Uzunqol iş görərkən mane olur və tez çirklənir, çirmələmək isə rahatlıq gətirir.</p>
+<p>İsti havada sərinlik yaradır.</p>
+<p>Bəzi şirkətlər yayda bunu dress-kodda icazəli hesab edirlər.</p>
+<h3>Qolları üslubla çirmələmək üçün 3 üsul</h3>
+<h3>1. Klassik üsul</h3>
+<p>Ən sadə və universal variant. Pambıq, cins və ya qalın parça – hər köynəyə uyğundur. Əvvəl bütün düymələri aç. Manjeti öz eni qədər çölə qatla. Lazım olduqca qatlamağa davam et. Düzləməyə ehtiyac varsa, bükülməni səliqəyə sal. Mükəmməl düz xətt lazım deyil, azacıq səhlənkarlıq üsluba xeyir verir. İstəsən, düymə ilə sabitləyə bilərsən.</p>
+<h3>2.Üçdə dörd</h3>
+<p>Klassikanın maraqlı variantıdır. Adətən qol dirsəyin bir az üstünə qədər qaldırılır. Ancaq ən dəbli görünüş qolun ortasında dayandırmaqdır. Qatlamanı bir neçə dəfə təkrarla. Manjeti gizlədə bilərsən və ya çöldə saxlaya bilərsən.</p>
+<h3>3.“İtalyan üsulu”</h3>
+<p>Bu, vaxtilə italyan banditləri arasında populyar idi. Üsluba parıltı və şarm qatır. Qolu çölə çevir və manjeti dirsəyə yaxın qaldır. Sonra qolun alt hissəsini qatlayıb manjet səviyyəsinə qədər çək. İstəsən, manjeti tam gizlət, istəsən, bir hissəsini görünən saxla. Ən yaxşı nəticə üçün iç üzü kontrast olan köynək seç.</p>
+<h3>Səliqəli görünüş üçün məsləhətlər</h3>
+<p>Sərt manjetli köynəklər seç, forması yaxşı qalır.</p>
+<p>Hər köynəyə material və qol eninə görə uyğun üsul seç.</p>
+<p>Köynəyi əvvəlcədən ütülə. Əks halda görünüş səliqəsiz olar.</p>
+<p>Pencək və blezerdə qolu çirmələ, bu uyğunsuz görünür.</p>
+<p>Biləklə qol ucu arasında ən az 10 sm məsafə qalmalıdır.</p>
+<p>Üst sərhəd – dirsəyin bir az üstüdür.</p>
+<p>Parça yumşaqdırsa, qarışıq qatlamalardan qaç və hər qatlamada parqanı düzlə.</p>
+<p>Axırda qolların bərabər uzunluqda olduğuna əmin ol.</p>
+<h3>Dəbli kombinasiya fikirləri</h3>
+<p>Çirməli qollu köynəyi yalnız klassik şalvarla düşünmə. Seçimlər çoxdur: casual üslubda şalvarlar, müxtəlif parçadan gündəlik şalvarlar, cinslər (hətta çirmələnmiş), briçlər və dizədək şortlar. Daha neytral köynəkdirsə, daha çox alt geyimlə uyğunlaşır. Sadə parçadan və əsas rənglərdə olan köynəklər demək olar hər şeylə yaraşır.</p>
+<p>Üstündən yüngül sviter və ya pencək geyinə bilərsən – rəsmi tədbir üçün. Gündəlik üslubda isə köynəyi futbolkanın üstünə geyin. Ayaqqabı seçimi məqsəddən asılıdır: ofis üçün rahat çəkmələr, gəzinti üçün ked və ya idman ayaqqabısı. Aksessuarlar da əlavə et – iri saat və ya bilərzik qısaldılmış qollarda daha yaxşı görünür.</p>
+<p>Çirməli qollar həm üslublu, həm rahatdır. Cəmi 1 dəqiqə vaxt sərf etməklə köynəyini tamamilə yenidən formalaşdıra bilərsən. Amma unutma: obraz səhlənkar görünsə də, təmiz və səliqəli olmalıdır. Parçanı büzmə və ütüsüz köynək geyinmə.</p>
+<h3>Sən qolları tez-tez çirmələyirsən? Hansı üsulu üstün tutursan?</h3>
+    </article>
+  </main> 
+
+  <h1 id="saqqali-uzatmaq"></h1>
+  <main class="grid">
+    <article class="card">
+      <h1 class="title">Saqqalı necə uzatmaq və ona necə qulluq etmək olar?</h1>
+<p style="text-align: center;"><strong>Baxımlı saqqal cəlbedici görünür və kişinin üslubunu tamamlayır. Amma o, özü-özünə belə olmur. Düzgün forma seçmək və müntəzəm qulluq vacibdir.</strong></p>
+<img src='https://i.imgur.com/78Nime0.jpeg' alt="Saqqal">
+<p>Saqqalın qulluğu – bu yalnız trimmer və ya ülgüc istifadə etmək deyil. Bu günkü məqalədə bərbərlər xüsusi kosmetik vasitələrin mənası olub-olmadığını izah edəcək, həm də saqqalı necə uzatmaq və yaxşı vəziyyətdə saxlamaq barədə məsləhətlər verəcəklər.</p>
+<h3>Saqqalın optimal formasını necə seçməli?</h3>
+<p>Deyirlər ki, saqqalı sevirsənsə – burax. Amma ciddi desək, saqqal uzadanda bir neçə vacib məqama diqqət etmək lazımdır. Məsələn, üzün və başın formasına. Çünki yalnız öndən deyil, bütün bucaqlardan baxmaq gərəkdir.</p>
+<p>Əksər hallarda üz forması kvadrat, dairə və ya üçbucağa bənzəyir. Hər bir formaya uyğun saqqal uzunluğu və xətti seçmək olar ki, bu da qüsurları gizlədir və ya üz cizgilərini önə çıxarır:</p>
+<p>Üz dairəvidirsə – orta və ya uzun saqqal uyğundur.</p>
+<p>Kvadrat formadadırsa – müxtəlif uzunluq və formalarla sınamaq olar. Qısa, yumşaq konturlu saqqal və ya orta uzunluqda dairəvi formaya malik saqqal yaxşı görünəcək.</p>
+<p>Üçbucaq formalı üzdə isə orta uzunluqda, kvadrat xəttli saqqal daha uyğun gəlir.</p>
+<p>Saçların çıxma xüsusiyyətlərini də nəzərə almaq lazımdır. Bəzən müəyyən hissələrdə sıx olur, bəzilərində isə seyrək – bu halda bəzi yerlər təmiz qırxılır, digərlərində uzunluq saxlanılır. Əgər hər gün qırxılmağa adət etmisənsə və indi saqqal buraxmaq qərarına gəlmisənsə, ustaya müraciət edib forma seçmək faydalı olar.</p>
+<h3>Evdə saqqalı necə və nə qədər tez-tez düzəltmək lazımdır?</h3>
+<p>Üzünü hər gün qırxmağa öyrəşmisənsə, saqqal qulluğunda da müəyyən dövrlər var. Məsələn, bığlar tez uzandığı üçün həftədə iki dəfə düzəltmək tövsiyə olunur.</p>
+<p>Saqqalı hansı uzunluqda saxlamaq istədiyindən asılı olaraq korreksiya intervalı dəyişir. Qısa saqqaldırsa, həftədə bir dəfə trimmerlə lazımi qatını götürmək kifayətdir.</p>
+<p>Trimmerlə birlikdə gələn başlıqlar müxtəlif uzunluqlara uyğundur. Onların köməyi ilə uzun müddət toxunmadan saqqalı uzadıb, sonra isə istənilən ölçüyə gətirmək olar.</p>
+<h3>Saqqal üçün müxtəlif alətlərin fərqləri</h3>
+<p>Qayçı – uzun və qalın saqqal üçün uyğundur. Uzunluq və həcmi tənzimləməyə imkan verir. Bığları isə ağızdan uzaqlaşdıqca daha uzun buraxmaq olar.</p>
+<p>Şeyver və elektrik ülgüc – ən populyar seçimdir. Rahatdır, vaxt qənaət edir, səyahətdə əlverişlidir. Həssas dəriyə elektrik ülgüc daha yaxşıdır, çünki qıcıqlanma az olur.</p>
+<p>Trimmer – müəyyən uzunluqda saqqalı saxlamaq və konturları dəqiq düzəltmək üçün ən münasib vasitədir.</p>
+<p>Ülgüc və ya stanok – dərini tam təmiz qırxır. Trimmerlə birlikdə istifadə oluna bilər: ülgüclə boyun qırxılır, trimmerlə saqqal formaya salınır.</p>
+<h3>Saqqala necə qulluq etməli ki, daha yaxşı uzansın və baxımlı görünsün?</h3>
+<p>Əvvəlcə saqqalın uzunluğunu müəyyən etmək lazımdır. Hər ölçü üçün qulluq fərqlidir:</p>
+<p>Qısa saqqal üçün saqqal yağı uyğundur. O, tükləri yumşaldır, altındakı dərini qurutmaqdan qoruyur. 3–4 damla yağı ovuclara sürtüb saqqala çəkmək kifayətdir.</p>
+<p>Uzun saqqal üçün həm yağ, həm də balzam uyğundur. Balzam gün boyu saqqalı nəmləndirir, formaya salır və istəyə görə saçların böyüməsini dəstəkləyən növləri var.</p>
+<p>Saqqal üçün xüsusi şampun və sabunlardan istifadə etmək vacibdir. Onlar saç üçün nəzərdə tutulan adi vasitələrdən fərqlidir və dəriyə yumşaq təsir göstərir.</p>
+<p>Yağlar, serumlar və digər vasitələr qırılmanın, ucların çatlamasının qarşısını alır və dəridəki quruluğu aradan qaldırır.</p>
+<p>Fəsillərə görə qulluq da dəyişir: yayda günəş və dəniz suyu tükləri sərtləşdirə bilər, qışda isə soyuqdan qırılqan ola bilərlər. Buna görə ilboyu müntəzəm qulluq vacibdir.</p>
+<h3>Saqqal üçün üslublandırıcı vasitələr</h3>
+<p>Yağ – orta uzunluğa qədər saqqal üçün uyğundur. Saçlara yumşaqlıq və lazım gəldikdə parıltı verir.</p>
+<p>Mum – uzun bığlar üçün lazımdır. Onunla formaya salmaq və fiksasiya etmək olar.</p>
+<p>Balzam – həm qulluq, həm də formanın qorunması üçün idealdır. Saqqaldakı nizamsız tükləri asanlıqla ram edir.</p>
+<p>Nəticədə, istənilən saqqal – qısa və ya uzun olsun – diqqətli qulluq tələb edir. Bu, təkcə estetik görünüş deyil, həm də gigiyena məsələsidir. Axı, hətta qeyri-peşəkar da fərqi görə bilər: saqqal sadəcə uzadılıb, yoxsa həqiqətən baxımlıdır.</p>
+<h3>Bəs sən hansını seçirsən – saqqalı, şetinanı, yoxsa tam qırxılmış üzü?</h3>
+    </article>
+  </main> 
+ 
+ 
+</body>

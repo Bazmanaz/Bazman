@@ -1,0 +1,509 @@
+<!-- hedef.html -->
+<h1 id="alfa-beta"></h1>
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dəb və Stil - BAZMAN.AZ</title>
+  <meta name="description" content="Alfa və beta kişilərin fərqləri, onların davranışları və sosial həyatda rolu haqqında ətraflı məqalə.">
+  <link rel="stylesheet" href="../style.css">
+  <script defer src="../script.js"></script>
+  <style>
+    /* Məqalə konteyneri */
+    .card {
+      width: 90%;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    /* Başlıq */
+    .card h1.title {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    /* Mətn */
+    .card p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    /* Şəkillər */
+    .card img {
+      width: 50%;
+      height: auto;
+      display: block;
+      margin: 15px auto 30px auto;
+      border-radius: 8px;
+      object-fit: contain;
+    }
+
+    /* iframe adaptiv və scroll-suz */
+    .responsive-iframe {
+      width: 100%;
+      max-width: 310px;
+      aspect-ratio: 310 / 514;
+      border: 0;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Mobil uyğunluq */
+    @media (max-width: 768px) {
+      .card {
+        width: 95%;
+        padding: 10px;
+      }
+      .card img {
+        width: 95%;
+      }
+    }
+
+    /* Tema dəyişmə düyməsi */
+    .theme-toggle-btn {
+      cursor: pointer;
+      font-size: 1.2em;
+      padding: 5px 10px;
+      border: none;
+      background: none;
+    }
+	
+  /* Loqo ölçüsü */
+  .brand img {
+    width: 120px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+ /* Flex container əlavə olunur */
+  .page-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 90vh; /* viewport hündürlüyü */
+  }
+
+ .sidebar {
+  flex: 0 0 20%; /* ekranın 20%-i qədər */
+  position: sticky;
+  top: 20px;
+  height: calc(100vh - 40px);
+}
+
+
+  .sidebar iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  /* Sağ blok (məqalələr) */
+  .content {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  /* Dark theme sağ blok üçün */
+  body.dark-theme .content {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  body.dark-theme .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+  }
+
+  /* Mobil uyğunluq */
+  @media (max-width: 768px) {
+    .page-container {
+      flex-direction: column;
+      height: auto;
+    }
+    .sidebar {
+      position: relative;
+      top: 0;
+      height: 300px;
+    }
+    .content {
+      overflow-y: visible;
+    }
+  }
+  
+  /* Chrome, Safari, Opera üçün */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox üçün */
+body {
+  scrollbar-width: none;
+}
+
+/* IE və Edge üçün */
+body {
+  -ms-overflow-style: none;
+}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="https://i.imgur.com/LOhQRks.jpg" alt="BAZMAN.AZ loqosu">
+    </div>
+    <nav class="nav">
+      <a href="../index.html">Əsas</a>
+      <a href="meqaleler.html">Məqalələr</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle-btn">🌙</button>
+  </header>
+  
+   <div class="page-container">
+    <!-- Sol blok -->
+    <aside class="sidebar">
+      <iframe class="responsive-iframe" src="render.html" title="Məzmun iframe-i"></iframe>
+    </aside>
+
+    <!-- Sağ blok -->
+	 
+		<section class="content">
+		
+<h1 id="beyin-saglamligi"></h1>		
+<main class="grid">
+<article class="card">
+      <h1 class="title">Beyin sağlamlığı üçün 6 qida</h1>
+<p style="text-align: center;"><strong>Ekspertlər iddia edirlər ki, tərkibində antioksidantlar və omeqa-3 yağ turşuları çox olan qidalar beyin sağlamlığını və yaddaşı yaxşılaşdıra bilər. Meyvələrdən tutmuş balığa qədər, müxtəlif araşdırmaların nəticələrinə görə, boz maddəni canlandıra bilən altı qida məhsulu aşağıdakılardır.</strong></p>
+<img src='https://i.imgur.com/JmpUmSo.jpeg' alt="Beyin1">
+<p>Mütəxəssislər iddia edirlər ki, tərkibində antioksidantlar və omeqa-3 yağ turşuları çox olan qidalar beyin sağlamlığını və yaddaşı yaxşılaşdıra bilər. Meyvələrdən tutmuş balığa qədər, müxtəlif araşdırmaların nəticələrinə görə, boz maddəni canlandıra bilən altı qida məhsulu aşağıdakılardır:</p>
+<h3>Qoz</h3>
+<p>Onun meyvəsi hətta xarici görünüşü ilə də insanın beyin quruluşunu xatırladır. Beləliklə, bəlkə də, Təbiət Ana bizə qozun nə üçün faydalı olduğunu bildirib. Əslində, aparılan tədqiqatlar göstərib ki, qidalanma rasionuna cəmi 2% qoz əlavə edilməsi, yaşlı siçanların beynində yaşlanma əlamətlərini ləngidib və beynin fəaliyyətini və informasiyanı emal etmək qabiliyyətini yaxşılaşdırıb.</p>
+<p>Altsheymer xəstəliyi olan siçanlar isə qozla qidalandıqdan sonra öyrənmə, yaddaş və hərəkət koordinasiyası qabiliyyətlərində yaxşılaşma nümayiş etdiriblər.
+<p>Qoz, bəzi tədqiqatçıların fikrincə, orqanizmdəki sərbəst radikallar tərəfindən törədilən beyin hüceyrələrinin DNT-sinə ziyan dəyməsini dəf edə bilən çoxlu miqdarda antioksidant ehtiva edir.</p>
+<img src='https://i.imgur.com/xRltuLq.jpeg' alt="Beyin2">
+<h3>Kök</h3>
+<p>Kök uzun müddətdir ki, gözlər üçün faydalı xüsusiyyətləri ilə tanınır, indi isə məlum olub ki, həm də beyin üçün faydalıdır. Kök, yaşla əlaqəli yaddaş itkisini və beyindəki iltihabı azaltmağa kömək edən lüteolin adlı bir maddə ilə zəngindir.</p>
+<p>Hər gün 20 milliqram lüteolin əlavə edilən siçanlar üzərində aparılan bir araşdırmada, onların beyinlərindəki iltihabın azaldığı müşahidə olunub. Alimlər həmçinin bu komponentin yaşlı siçanların yaddaşını cavan heyvanların səviyyəsinə qaytardığını bildiriblər. Zeytun yağı, bibər və kərəviz də lüteolinlə zəngindir.</p>
+<img src='https://i.imgur.com/slBiX8O.jpeg' alt="Beyin3">
+<h3>Giləmeyvələr</h3>
+<p>Yaddaşınızı yaxşılaşdırmaq istəyirsinizsə, rasionunuza vitaminlə zəngin bəzi giləmeyvələri əlavə etmək yaxşı bir fikir olardı.</p>
+<p>"Agricultural and Food Chemistry" jurnalında 2010-cu ildə dərc olunmuş bir araşdırmada, yaddaş problemləri yaşayan doqquz yaşlı insanda 12 həftə ərzində hər gün yabanmersini şirəsi içməyin onların öyrənmə və yaddaş qabiliyyətlərini yaxşılaşdırdığı müşahidə olunub. Şirə içməyən analoji yaş qrupundakı insanlarla müqayisədə onlarda fərq açıq şəkildə görünürdü. Yabanmersini şirəsi içən iştirakçılarda depressiya əlamətlərinin də azaldığı müşahidə edilib.</p>
+<p>"Journal of Nutrition" jurnalında 2009-cu ildə yayımlanan məqalədə isə tədqiqatçılar yabanmersini və çiyələk kimi antioksidantlarla zəngin meyvələrin hüceyrələrdə yaşlanma ilə əlaqəli gərginliyi azalda və beyində siqnal ötürmə qabiliyyətlərini artıra biləcəyini bildiriblər.</p>
+<img src='https://i.imgur.com/9L7t8K0.jpeg'alt="Beyin4">
+<h3>Balıq</h3>
+<p>Son araşdırmalar göstərsə də ki, gündəlik rasionda balıq yağı Altsheymer xəstəliyi olan insanlarda zehni tənəzzülü yavaşlada bilmir, digər tədqiqatçılar omeqa-3 yağ turşuları ilə zəngin balıq qəbulunun yaşla gələn zehni tənəzzülü yavaşlatdığını iddia edirlər.</p>
+<p>Aparılan bir təhlil göstərdi ki, 65 və daha yuxarı yaşda olan və həftədə ən azı iki dəfə balıq yeyən insanların zehni tənəzzülü müntəzəm balıq yeməyənlərlə müqayisədə altı il ərzində 13% azalıb. Balıq həmçinin Altsheymer xəstəliyinin inkişafından qoruyan B12 vitamini ilə də zəngindir.</p>
+<img src='https://i.imgur.com/ea5ajHD.jpeg' alt="Beyin5">
+<h3>Kofe və Çay</h3>
+<p>Kofe və çay sadəcə oyandırıcı təsirə malik deyil; elmi tədqiqatlar onların Altsheymer xəstəliyindən qoruya və idrak funksiyasını yaxşılaşdıra biləcəyini sübut edib.</p>
+<p>"Journal of Alzheimer's Disease" jurnalında 2010-cu ildə dərc olunan bir təhlilə görə, tədqiqatçılar Altsheymer xəstəliyinin inkişafı üçün genetik olaraq yetişdirilmiş siçanlara kofeinli kofe verdikdə, xəstəliyin inkişafı ya azalıb, ya da heç meydana gəlməyib. Bu nəticələrə əsaslanaraq, elm adamları hesab edirlər ki, kofe gələcəkdə Altsheymer xəstəliyi olan insanlar üçün terapevtik bir vasitə ola bilər.</p>
+<p>Çay da beyni qoruyucu xüsusiyyətlər göstərib. Çay sevənlər yaddaş və məlumatı emal etmə testlərində çay içməyənlərdən daha yaxşı nəticələr göstəriblər.</p>
+<img src='https://i.imgur.com/eZ7OFvr.jpeg' alt="Beyin6">
+<h3>İspanaq</h3>
+<p>Bu yaşıl yarpaqlı tərəvəz, araşdırmalara görə, idrak qabiliyyətini yaxşılaşdırmağa kömək edən C və E vitaminləri ilə zəngindir. 2000-ci ildə siçanlar üzərində aparılan bir araşdırma göstərib ki, E vitamini əlavəsi səkkiz ay ərzində beyin və sinir toxumasının 500-900% artmasına, həmçinin beynin digər hissələrinə məlumat axınını tənzimləyən "həzz" hormonu olan dopamin istehsalının artmasına səbəb olub.</p>
+<img src='https://i.imgur.com/AcchdB0.jpeg' alt="Beyin7">
+    </article>
+	</main class="grid">
+
+
+<h1 id="cay"></h1>	
+	<main class="grid">
+    <article class="card">
+      <h1 class="title">ÇAY HAQQINDA NƏLƏRİ BİLMƏLİYİK</h1>
+<p><p style="text-align: center;"><strong>Ən faydalı çay hansıdır? Müxtəlif bölgələrdə yetişdirilən çaylar bir-birindən nə ilə fərqlənir? Çay içkisi nədir? Bütün bunlar haqqında məqaləmizdə öyrənəcəksiniz.</strong></p>
+<img src='https://i.imgur.com/9n9g3e3.jpeg' alt="Çay1">
+<h2>Fermentasiya dərəcəsinə görə çay növləri</h2>
+<h3>Ağ çay</h3>
+Fermentasiya dərəcəsi: 0%.</p>
+<p>Faydaları: "Ölümsüzlük eliksiri" adlandırılır, çünki bütün vitamin və mineralları qoruyur. Qocalmanı ləngidir, şişlərin əmələ gəlməsinin qarşısını alır, ürək-damar sistemini gücləndirir, yara sağalmasını sürətləndirir və viruslardan qoruyur.</p>
+<p> cəhətləri: Dadı o qədər zərif və incədir ki, güclü çaya alışmış insanlar üçün qiymətləndirmək çətindir.</p>
+<p>Dəmlənmə qaydası: 3-5 dəqiqə, 100°C temperaturda.</p>
+<h3>Yaşıl çay</h3>
+<p>Fermentasiya dərəcəsi: 2-3%.</p>
+<p>Faydaları: Maddələr mübadiləsini normallaşdırır, həzm sisteminin fəaliyyətini yaxşılaşdırır, diş çürüməsinin qarşısını alır və kapilyarların möhkəmliyini artırır.</p>
+<p>Mənfi cəhətləri: Yüksək miqdarda kofein ehtiva edir, bu səbəbdən səhər və günorta içmək daha uyğundur.</p>
+<p>Dəmlənmə qaydası: 5-7 dəqiqə, 60-90°C temperaturda.</p>
+<h3>Sarı çay</h3>
+<p>Fermentasiya dərəcəsi: 10%.</p>
+<p>Faydaları: Yaşıl çayla oxşar xüsusiyyətlərə malikdir: təzyiqi, ürək fəaliyyətini normallaşdırır və zehni fəaliyyəti aktivləşdirir.</p>
+<p>Mənfi cəhətləri: Elit çaylara aid olub, ən bahalı növlərdən biridir.</p>
+<p>Dəmlənmə qaydası: 3 dəqiqə, 60-80°C temperaturda.</p>
+<h3>Qırmızı çay (Oolong)</h3>
+<p>Fermentasiya dərəcəsi: 40-50%.</p>
+<p>Faydaları: Dərinin qocalmasını ləngidir, immun sistemini gücləndirir, qan təzyiqini və xolesterini aşağı salır.</p>
+<p>Mənfi cəhətləri: Kəskin ətri və tünd dadı səbəbindən hər kəsin zövqünə uyğun deyil.</p>
+<h3>Qara çay</h3>
+<p>Fermentasiya dərəcəsi: 100%.</p>
+<p>Faydaları: Tərkibindəki TF-2 maddəsi sayəsində xərçəng riskini azalda bilər. Ürək-damar sistemini normallaşdırır, mikrob öldürücü təsirə malikdir və xolesterini aşağı salır.</p>
+<p>Mənfi cəhətləri: Yüksək kofein tərkibi səbəbindən gündə 4 stəkandan çox içmək və axşam saat 18:00-dan sonra istifadə etmək tövsiyə edilmir.</p>
+<p>Coğrafi xüsusiyyətlərə görə çay seçimi</p>
+<p>Ümumi qayda: Çay kollarının yetişdiyi iqlim nə qədər soyuq olarsa, çayın dəyəri də bir o qədər yüksək olar.</p>
+<h3>Hindistan çayı: </h3>
+<p>Dünyanın ən böyük qara çay istehsalçısıdır.</p>
+<h3>Assam: Güclü qara çay nümunəsidir, tünd rəngi və bürüşdürücü dadı ilə seçilir.</h3>
+<h3>Darjilinq: "Çay şampanı" adlanır və ən qiymətli çay növüdür.</h3>
+<b>Seylon çayı:</b> Parlaq, qırmızımtıl rəngli, güclü, lakin sadə dada malikdir.</b>
+<b>Keniya çayı:</b> Əsas xüsusiyyəti möhkəmliyidir.</b>
+<b>Çin çayı: </b>5000 ildən çox çay istehsalı ənənəsinə malikdir.</b>
+<b>Yunnan: Ən məşhur çin çayı növüdür, tüstü ətri və yüngül qara gavalı çalarları ilə tanınır.</b>
+<b>Yaponiya çayı:</b> Yalnız yaşıl çay istehsal edir.</b>
+<b>Sença: Yaponiyada ən çox içilən çaydır. Zərif, bürüşdürücü dadı və aşağı kofein miqdarı ilə seçilir.</b>
+<p>Çay içkisi seçimi</p>
+<b>Matə:</b>
+<p>Faydaları: Antioksidantlarla zəngindir, immun sistemini gücləndirir və uzunömürlülüyə kömək edir.</p>
+<p>Əks göstərişləri: Öd daşı xəstəliyi olanlar üçün tövsiyə edilmir.</p>
+<b>Karkade:</b>
+<p>Faydaları: Antosiyaninlərlə zəngin olaraq damar divarlarını möhkəmləndirir və orqanizmi təmizləyir.</p>
+<p>Əks göstərişləri: Təzyiq problemləri olanlar ehtiyatlı olmalıdır. İsti halda təzyiqi qaldırır, soyuq halda isə aşağı salır.</p>
+<b>Roybuş:</b>
+<p>Faydaları: Kofeinsizdir, C vitamini, mis və flüorla zəngindir. Kiçik uşaqlar üçün də uyğundur.</p>
+<p>Əks göstərişləri: Yoxdur.</p>
+<p>Dəmlənmiş çayın təravəti</b></p>
+<p>Dəmlənmiş çay 20-30 dəqiqədən gec olmayaraq içilməlidir. Bu müddətdən sonra zərərli kimyəvi proseslər baş verir. Bu prosesin ilk əlaməti isə çayın səthində əmələ gələn nazik pərdədir.</p>
+    </article>
+  </main>
+  
+ <h1 id="spirtli-ickiler"></h1> 
+  <main class="grid">
+    <article class="card">
+      <h1 class="title">Ev barında hansı spirtli içkilər olmalıdır: siyahı</h1>
+<p style="text-align: center;"><strong>Ev barı sadəcə müxtəlif spirtli içkilər kolleksiyası deyil, istənilən vaxt partilər, bayramlar və ya qonaqlar üçün müxtəlif kokteyllər hazırlamaq imkanıdır. Barın universal olması üçün orada bəzi spirtli içki növləri olmalıdır. Bu məqalədə ev barında hansı içkiləri saxlamağın məsləhət olduğunu və niyə belə olduğunu izah edirik.</strong></p>
+<img src='https://i.imgur.com/TOrfToi.jpeg' alt="Içki1">
+<h3>Cin</h3>
+<p>Cin, xüsusilə kokteyl sevənlər üçün ev barının əsas elementlərindən biridir. Ardıc ağacının kəskin notları ilə sərinlədici dadı olan bu spirtli içki klassik tonik, sitrus meyvələri və ədviyyatlarla mükəmməl birləşir. Cinin ən populyar növləri "London Dry Gin" və ətirli variantlardır. "London Dry Gin" "Dry Martini" daxil olmaqla bir çox klassik kokteylin əsasıdır. Bu növün ən məşhur nümayəndələrindən biri Böyük Britaniyanın paytaxtında istehsal olunan **Beefeater cinidir**. Ətirli içkilər isə meyvə və giləmeyvə əlavə edilərək hazırlanır. Onlar xüsusilə eksperimental kokteyllər hazırlamaq, toniklə və ya təmiz halda içmək üçün uyğundur.</p>
+<h3>Araq</h3>
+<p>Ev barı üçün başqa bir universal spirtli içki araqdır. Neytral dadı sayəsində araq "Qanlı Meri" və "Kosmopolitan" da daxil olmaqla bir çox kokteyl üçün əsasdır. Yumşaq dada malik keyfiyyətli məhsul seçmək tövsiyə olunur.</p>
+<h3>Viski</h3>
+<p>Ev barı üçün ən azı iki növ viski almağa dəyər: biri yumşaq, digəri isə daha dolğun dad və ətirli. Birinci variant bir qədər şirin dada malik İrlandiya və Yapon spirtli içkiləridir, ikinci variant isə karamel və vanil notları olan Şotland skotçu və ya Amerika burbonudur. Viski təmiz halda içilə bilər, həmçinin onun əsasında "Manhetten", "Old Feşn", "Viski Sauər" və digər məşhur kokteyllər hazırlana bilər.</p>
+<h3>Rom</h3>
+<p>Ev barında ən azı iki şüşə rom saxlamaq məsləhətdir: ağ və ya qara (qızılı). Ağ rom yüngül və yumşaq dada malikdir, buna görə də müxtəlif kokteyllərin hazırlanmasında və kulinariyada geniş istifadə olunur. "Moxito", "Daykiri", "Pina Kolada" hazırlamaq üçün lazımdır. Qızılı və qara romun dadı daha dolğundur. Bu növlər təmiz halda, həzmə kömək edən bir içki olaraq (dijestiv) istifadə edilməsi tövsiyə olunur.</p>
+<h3>Tekila</h3>
+<p>Romda olduğu kimi, ev barı üçün ən azı iki şüşə tekila almaq məsləhətdir: kokteyllər üçün gümüşü (Blanco) və dequstasiya üçün saxlanılmış (Reposado). Tekilanın əsasında "Margarita" və "Tekila Sanrayz" kimi kokteyllər hazırlanır.</p>
+<h3>Absint</h3>
+<p>Mümkün olduqda, spirtli içkilər kolleksiyanızı bir şüşə absintlə tamamlamağa dəyər. Bu yüksək spirt tərkibli və xarakterik yaşıl rəngli "yovşan arağı" ekzotik kokteyllərin hazırlanmasında geniş istifadə olunur.</p>
+    </article>
+  </main>
+ 
+ <h1 id="limonad"></h1>
+ <main class="grid">
+    <article class="card">
+      <h1 class="title">Evdə hazırlanmış ən yaxşı limonad reseptləri</h1>
+<p style="text-align: center;"><strong>İndi isti yay günlərində hazırlayıb zövq almaq üçün bir neçə sadə limonad reseptini mənimsəməyin tam vaxtıdır. </strong></p>
+<img src='https://i.imgur.com/DCoyFfa.jpeg' alt="Limonad1">
+<p>Yəqin ki, bir çoxumuz uşaqlıqdan tanış olan qazlı, ətirli içki – limonadı bilirik. Həqiqətən də, isti yay günündə sərin bir stəkan içki içmək çox xoş və faydalıdır. Bu gün mağazalar bizə müxtəlif limonad növlərindən ibarət geniş çeşiddə təklif edir. Lakin onların tərkibində çoxlu zərərli maddələr (şəkər, dadlandırıcılar, boyayıcılar və s.) var.</p>
+<p>Sizə asanlıqla hazırlaya biləcəyiniz bir neçə təbii sərinləşdirici içki resepti təklif edirik.</p>
+<h3>1. Klassik limonad resepti</h3>
+<p>Bu limonad variantı ən klassikidir, hər yerdə rast gələ bilərsiniz. Tez və asan hazırlanır.</p>
+<p>Tərkibi:</p>
+<p>* Limon – 2 ədəd	</p>
+<p>* Bal – 3 xörək qaşığı</p>
+<p>* Su – 750 ml</p>
+<p>* Nanə – 6-7 yarpaq</p>
+<p>* Buz – 6 kub</p>
+<img src='https://i.imgur.com/ckHDAmK.jpeg' alt="Limonad2">
+<h3>Hazırlanması:</h3>
+<p>Limonları yaxşıca yuyub dilimləyin. Bal, su və buz kubikləri ilə birlikdə blender qabına qoyun və hər şeyi yaxşıca çırpın. Qrafinə tökün, nanə yarpaqları əlavə edin – limonad hazırdır!</p>
+ <h3>2.Şaftalı Limonadı</h3>
+<p>Ev şəraitində hazırlanan şaftalı limonadı vitaminlərlə və digər faydalı maddələrlə zəngindir.</p>
+<p>Tərkibi:</p>
+<p>* Limon – 1 ədəd</p>
+<p>* Şaftalı – 2 ədəd</p>
+<p>* Bal – 3 x.q.</p>
+<p>* İçməli su – 2 litr</p>
+<h3>Hazırlanması:</h3>
+<p>Kiçik dilimlərə kəsilmiş limonun suyunu suya sıxıb karafın içinə tökün. Ora doğranmış şaftalıları və balı əlavə edin. Təxminən 1 saat soyuq yerdə dəmlənməyə qoyun.</p>
+ <h3>3.Evsayağı Çiyələklə Limonad</h3>
+<p>Bu içkiyə çiyələkli mojito da deyirlər. Belə reseptlər spirtsiz kokteyllər hazırlayan bir çox kafelərdə populyardır.</p>
+<p>Tərkibi:</p>
+<p>* Çiyələk – 400-500 qr</p>
+<p>* Bal – 3-4 x.q.</p>
+<p>* Limon – 1-2 ədəd</p>
+<p>* Təzə nanə yarpaqları – zövqə görə</p>
+<p>* Su – 1,5 litr</p>
+<img src='https://i.imgur.com/Z9huXX1.jpeg' alt="Limonad3">
+<h3>Hazırlanması:</h3>
+<p>Bir qabda biraz çiyələyi əzərək suyunu çıxarın. Nanə yarpaqlarını xırdalayın. Daha sonra bütün inqrediyentləri qarışdırın, sıxılmış limon suyunu əlavə edin və üzərinə su tökün. Limonad hazırdır.</p>
+<h3>4. Giləmeyvəli limonad</h3>
+<p>Bu spirtsiz, xoş dadlı içki yay fəslində çox yaxşı sərinlədir və susuzluğu yatırır.</p>
+<p>Tərkibi:</p>
+<p>* Limon – 2 ədəd,</p>
+<p>* Təzə və ya dondurulmuş giləmeyvə – 400 qr,</p>
+<p>* Qazlı su – 1,5 litr,</p>
+<p>* Bal – zövqə görə.</p>
+<p>Hazırlanması:</p>
+<p>Giləmeyvələri əzin. Limonu dilimlərə kəsin və suyunu sıxın. Daha sonra bütün inqrediyentləri qarışdırın və üzərinə qazlı su əlavə edin. Balı da əlavə edin. İçki hazırdır.</p>
+<h3>5. Zəncəfilli içki</h3>
+<p>Bu limonad bir az arıqlamaq istəyənlərin zövqünə uyğun olacaq. Həmçinin, ədviyyat sevənlər üçün də idealdır, çünki zəncəfil bu içkiyə ədviyyatlı notlar qatır.</p>
+<p>Tərkibi:</p>
+<p>* Xırda doğranmış zəncəfil kökü – 2 ç.q.,</p>
+<p>* Bal – 2 x.q.,</p>
+<p>* Limon – 1 ədəd,</p>
+<p>* Su – 1,5 litr.</p>
+<img src='https://i.imgur.com/yN6j4mP.jpeg' alt="Limonad4">
+<p>Hazırlanması:</p>
+<p>Zəncəfili bir qazana qoyun, üzərinə bir stəkan su əlavə edin. Qarışımı qaynama nöqtəsinə gətirin və təxminən 5 dəqiqə bişirin. Sonra soyudub süzün. Bu zəncəfil mayesinə bal və limon suyu əlavə edin. Yaxşıca qarışdırın – içki hazırdır.</p>
+<h3>6. Kivi limonadı</h3>
+<p>Kivinin immun sisteminə xeyirli təsir etdiyi məlumdur. Buna görə də kivi ilə hazırlanan ətirli içki orqanizm üçün çox faydalıdır.</p>
+<p>Tərkibi:</p>
+<p>Kivi – 5 ədəd, limon – 1 ədəd,</p>
+<p>Bal – 1-2 x.q.,</p>
+<p>Qazlı və ya sadə su – 1,5 litr.</p>
+<p>Hazırlanması:</p>
+<p>Qabığı soyulmuş kiviləri blenderdə əzin. Limon suyu, bal və su əlavə edin. Bir dəfə də yaxşıca qarışdırın. İçki istifadəyə hazırdır.</p>
+<img src='https://i.imgur.com/Fr6dngn.jpeg'</p>
+    </article>
+  </main>
+ 
+ <h1 id="isti-havada-qidalanma"></h1>
+  <main class="grid">
+    <article class="card">
+      <h1 class="title">İsti havada necə qidalanmaq olar?</h1>
+<p style="text-align: center;"><strong>Yaz və yay mövsümündə orqanizm fərqli işləməyə keçir. Zədələnməmək və düzgün qidalanmaq üçün aşağıdakı qaydalara əməl edin. </strong></p>
+<img src='https://i.imgur.com/vPbseYC.jpeg' alt="Isti hava1">
+<b>Daha çox maye</b>
+<p>Yayda bədənimiz mayeyə daha çox ehtiyac duyur. Yüksək temperatur səbəbindən çox tərləyirik və dəridən maye itiririk. Buna görə yayda orqanizmə qış-yaz normasından əlavə 20–30% su lazımdır.</p>
+<p>Ən yaxşı içki (yalnız yay üçün deyil) sudır. Şirin qazlı içkilər və spirtli içkilər isə əksinə, dehidrasiyanı artırır və susuzluq hissini tez yenidən yaradır.
+</p>
+<p>Su ilə yanaşı, şəkərsiz bitki və meyvə dəmləmələri faydalıdır. Bu içkilərdə orqanizmin tərlə itirdiyi elektrolitlər mövcuddur. Yaşıl çay isə antioksidantlarla zəngindir və sərbəst radikalların zərərli təsirindən qoruyur.</p>
+<b>Temperatur rejimi</b>
+<p>Qışda isti yeməklər yeyiriksə – isti şorba, sup, çay, yayda isə daha çox soyuq və ya otaq temperaturunda yeməyə üstünlük verin. Qızardılmış yeməklər yayda tövsiyə edilmir, çünki onlar həzm baxımından ağırdır və bədəni isidir. Ən yaxşı yay yeməkləri: okroşka, salatlar, xam tərəvəz və meyvələrdir.</p>
+<h3>Az kalorili qidalar</h3>
+<p>Yayda enerji sərfiyyatı azdırsa, daha çox istirahət edir və daha az işləyirsinizsə, kalorini 5–10% azaltmaq lazımdır.</p>
+<p>Şirin, yağlı və un məhsullarından çox istifadə etməyin. Yayda ənənəvi dondurmanı tamamilə dayandırmaq çətindir, amma miqdarına diqqət edin. Yağlı ət əvəzinə toyuq filesi və ya balıq yeyə bilərsiniz. Toyuq və balıq həm az kalorili, həm də orqanizm üçün zəruri tam zülal mənbəyidir.</p>
+<h3>Meyvələri səhər yemək</h3>
+<p>Yayda xam tərəvəz və meyvələr faydalıdır. Meyvələri günün ilk yarısında və digər qidalardan ayrı yeyin. Ümumi qayda: meyvələri həmişə ayrı yeyin. Yeməkdən sonra və ya gecə meyvə yemək fermentasiya prosesini təşviq edir.</p>
+<p>Çoxlu meyvə və tərəvəz səbəbindən insanlar buzlu təzə sıxılmış meyvə şirələrinə üstünlük verir. Amma həddindən artıq içmək düzgün deyil. Təzə şirələr (xüsusilə paketlənmiş meyvə şirələri) artıq çəkiyə səbəb ola bilər, çünki onların şəkər səviyyəsi yüksəkdir. Eyni zamanda, çox meyvə şirəsi allergiyaya səbəb ola bilər.</p>
+<h3>İnfeksiyalara diqqət</h3>
+<p>Yayda diqqətli olun. Yüksək temperatur və rütubət bakteriyalar və göbələklər üçün ideal şəraitdir. Ət və süd məhsullarına xüsusi diqqət yetirin. Kolbasa və pendiri istifadə etməzdən əvvəl iyinə baxın. Hər hansı bir pis qoxu varsa, məhsulu dərhal atın.</p>
+<p>Meyvələrdə göbələk daha çox əmələ gəlir. Göbələk görünən meyvəni tamamilə atmaq lazımdır. Yalnız zədələnmiş hissəni kəsmək və qalanını yemək yanlışdır, çünki göbələk bütün məhsula yayılıb.</p>
+    </article>
+  </main>
+ 
+ <h1 id="manqal-reseptleri"></h1>
+ <main class="grid">
+    <article class="card">
+      <h1 class="title">Qeyri-adi manqal reseptləri</h1>
+<p><p style="text-align: center;"><strong>Hər kəs bilir ki, manqal (şiş kababı) üç şeydən ibarətdir: ət, marinad və qarnirlər. Əlinizdə olan ət dəyişməyən bir şeydirsə, onda onu marinad etmə üsulları və müxtəlif qarnirlər, tərəvəzlər əlavə etmək barədə...</strong></p>
+<img src='https://i.imgur.com/ZxpKAxQ.jpeg' alt="manqal1">
+<h3>Qeyri-adi manqal (şiş kababı) reseptləri</h3>
+<p>Hər kəs bilir ki, manqal üç şeydən ibarətdir: ət, marinad və qarnirlər. Əlinizdə olan ət dəyişməyən bir şeydirsə, onda onu marinad etmə üsulları və müxtəlif qarnirlər, tərəvəzlər əlavə etmək barədə adətən uzun mübahisələr yaranır. Şiş kababını yeməyə gedən kapmaniya nə qədər böyük olarsa, ətin hansı marinadda daha dadlı olacağı barədə fikirlər də bir o qədər çox olur və mübahisələr daha da uzanır. Odur ki, budur bizim manqal hazırlamaq üçün reseptlərimiz.</p>
+<p>Qeyri-ənənəvi manqal hazırlamağı öyrənirik: **“Çempion Mais”**, **“Turş toyuq”** və **“Dəniz canavarı”**. Reseptlər və qida dəyərləri.</p>
+<h3>“Çempion Mais”</h3>
+<p>Qida dəyəri</p>
+<p>207 kkal, 9,1 q zülal,</p>
+<p>6,3 q doymuş yağ,</p>
+<p>18,2 q karbohidrat</p>
+<p>Tərkibi:
+<p>- 6 ədəd çiy qarğıdalı</p>
+<p>- 1,5 ç.q. üyüdülmüş şirin paprika</p>
+<p>- 1,5 ç.q. üyüdülmüş çili bibəri</p>
+<p>- Bir laymın sedrası</p>
+<p>- 1,5 x.q. iri dənəli duz</p>
+<p>- 100 q sürtgəcdən keçirilmiş parmesan pendiri</p>
+<p>- 2-3 x.q. xama</p>
+<p>- 3 ədəd laym</p>
+<p>Hazırlanması:</p>
+<p>1. Paprika, çili, duz, parmesan pendiri və laym sedrasını düz bir qabda qarışdırın.</p>
+<p>2. Qarğıdalı qabağını qril barmaqlığı üzərində 12-15 dəqiqə qızardın.</p>
+<p>3. Qarğıdalını ocaqdan götürün, hər qabağı xama ilə yağlayın və pendir-bibər qarışığında yaxşıca çevirin.</p>
+<p>4. Üzərinə laym suyu sıçradın.</p>
+<p>Faydası:</p>
+<p>Qarğıdalı lif, B3 (dərini yaxşılaşdırır) və B5 (infeksiyalardan qoruyur) vitaminləri ilə zəngindir.</p>
+<p>Məsləhət:</p>
+<p>Ətir vermək üçün qızartmağa başlamazdan əvvəl ocağa bir neçə dal mayanotu, kəklikotu, oregano və ya meyvə ağaclarının qabığını atın.</p>
+<h3>“Turş toyuq”</h3>
+<p>Qida dəyəri:</p>
+<p>367 kkal, 30 q zülal,</p>
+<p>6 q doymuş yağ,</p>
+<p>9,1 q karbohidrat</p>
+<p>Tərkibi:</p>
+<p>- Toyuq qanadları — nə qədər yeyə bilsən</p>
+<p>- Açıq rəngli pivə — nə qədər içə bilsən (üstəgəl marinad üçün bir şüşə)</p>
+<p>- 2-3 ədəd laym</p>
+<p>- İri dənəli duz</p>
+<p>Hazırlanması:</p>
+<p>1. Qanadları yarım saatlıq pivəyə qoyun (zövqə görə reyhan, paprika, oregano əlavə edə bilərsiniz).</p>
+<p>2. Qril barmaqlığı üzərində hər iki tərəfdən qızılı qabığı yaranana qədər qızardın.</p>
+<p>3. Laymları dilimləyin. Qanadın üzərinə laym suyu sıxın və zövqə görə duz səpin.</p>
+<p>Faydası:</p>
+<p>Toyuğun tərkibindəki B qrupu vitaminləri zülalın mənimsənilməsinə kömək edir və sinir sisteminin fəaliyyətini normallaşdırır.</p>
+<p>Məsləhət:</p>
+<p>Kömürlərdən ətə qədər olan məsafəsi təxminən 10 sm olan manqal seçin - beləliklə həm tez qızarar, həm də yanmaz.</p>
+<h3>“Dəniz canavarı”</h3>
+<p>Qida dəyəri:</p>
+<p>227 kkal, 23,7 q zülal,</p>
+<p>5,2 q doymuş yağ,</p>
+<p>6,3 q karbohidrat</p>
+<p>Tərkibi:</p>
+<p>Bir dəniz levreği filesi üçün (1 porsiya):</p>
+<p>- 1 iri pomidor</p>
+<p>- Yarım xırda doğranmış kiçik soğan</p>
+<p>- Yarım xırda doğranmış halapeno bibəri</p>
+<p>- 1/2 ç.q. sürtgəcdən keçirilmiş zəncəfil</p>
+<p>- Bir dəstə keşniş
+<p>- Yarım limon
+<p>- Duz, qara bibər, zeytun yağı, çili - zövqə görə
+<p>Hazırlanması:</p>
+<p>. Balıq filesini sümüklərdən təmizləyin və zəncəfil, duz, bibər və yağla yaxşıca ovuşdurun. Qə gurmanlar üyüdülmüş keşniş, zerdeçal və anason əlavə edə bilərlər. Üzərinə halapeno bibəri halqaları səpin.</p>
+<p>2. Pomidorları qrildə qızardın, doğrayın və soğanla keşnişlə qarışdırın.</p>
+<p>3. Balığı dəri tərəfi oda baxaraq 3-4 dəqiqə qızardın, sonra çevirin və daha 2-3 dəqiqə qızardın. Limon dilimləri və pomidor salatı ilə süfrəyə verin.</p>
+<p>Faydası:</p>
+<p>Minimum karbohidrat və yağ, çoxlu zülal və maddələr mübadiləsini stimullaşdıran çili bibəri.</p>
+<h3>Məsləhət:</h3>
+<p>Təzə hazırlanmış şiş kabablarının, xüsusən də ətdən olanların üzərinə dərhal atılmayın. Qoyun isti yerdə beş dəqiqə dayansın, nəfəs alsın və özünə gəlsin. Onlar soyumasın, özünə gəlsin deyə, qabıqla üstünü örtün. Bundan sonra onları şişlərdən çıxarıb süfrəyə qoyun.</p>
+    </article>
+  </main>
+
+<h1 id="yasil-cay"></h1>
+<main class="grid">
+    <article class="card">
+      <h1 class="title">YAŞIL ÇAY</h1>
+<p><p style="text-align: center;"><strong>Yaşıl çay rəflərimizdə nisbətən bu yaxınlarda peyda olsa da, faydalı maddələr xəzinəsi və sağlamlıq iksiri kimi təsvir edildiyi üçün öz pərəstişkarlarını tapmağa müvəffəq olub.</strong></p>
+<img src='https://i.imgur.com/7zAgeRd.jpeg' alt="Yaşıl çay">
+<p>Yaponiyadakı Xərçəng Araşdırmaları Mərkəzinin ekspertləri on il ərzində 9 min nəfəri müayinə edərək aşkar ediblər ki, gündə 9-10 stəkan yaşıl çay içənlər, azı üç stəkan içənlərdən orta hesabla beş-yeddi il daha uzun yaşayıblar. Bundan əlavə, məlum olub ki, yaşıl çay həvəskarları arasında bütün növ xərçəngə tutulanların sayı 25-30% az olub. Yaponlar hesab edirlər ki, bu çay xərçəngə qarşı panaseya (həkim dərmanı) və şişlərin böyüməsini ləngidən bir vasitədir.</p>
+<p>Çinin Çay İnstitutunun professoru Çen Sikuq qeyd edir ki, çay, xüsusilə yaşıl çay, radiasiya xəstəliyinə qarşı effektiv vasitədir. Əgər siz uzun müddət rəngli televizora baxırsınızsa, yaşıl çay televizor ekranından gələn radiasiyanın zərərli təsirini neytrallaşdırır.</p>
+<p>Yaşıl çay qandakı xolesterin və piylərin parçalanmasını əhəmiyyətli dərəcədə sürətləndirir (bu da ateroskleroz, ürək xəstəlikləri deməkdir); onun müntəzəm istifadəsi damarların elastikliyini qoruyur, qaraciyərin piylənməsinin qarşısını alır, orqanizmin ümumi yaşlanmasını ləngidir. Bundan əlavə, o, çəki və təzyiqi azaldır, duzları bədəndən çıxarır. Yaponiyanın bütün inkişaf etmiş ölkələr arasında hipertoniya (yüksək təzyiq) baxımından son yerdə olması təsadüfi deyil.</p>
+<p>Yaşıl çay daha böyük fizoloji aktivliyə malikdir və hepatit (qaraciyər iltihabı) və revmatizmdə kömək edir, ürək əzələlərini tonuslandırır. Tərkibində yod, kalium, mis, C1, B1, B2, PP, K vitaminləri var, onlar damar divarlarını gücləndirir və güclü antibakterial təsirə malikdir.</p>
+<p>Dəmlənərkən yaşıl çayda qara çaya nisbətən daha çox mineral maddə qalır, xüsusilə də hamilə qadınlar üçün çox faydalı olan sink çoxdur. Sink dölün inkişafı üçün çox vacib bir elementdir və eyni zamanda antikanserojen (xərçəngə qarşı) xüsusiyyətlərə malikdir. Hamilə qadınlarda ürəkbulanma olduqda quru yaşıl çay yarpaqlarını çeynəmək, həmçinin bu vasitəni kiçikdaşıma (qəza xəstəliyi) və dəniz xəstəliyi zamanı istifadə etmək yaxşıdır.</p>
+<p>Yaponlar yaşıl çay qırıntıları ilə dişləri təmizləməyi məsləhət görürlər, çünki tərkibindəki flüor, ümumi bakterisid xüsusiyyətlərlə birləşərək diş emalının dağılmasının qarşısını alır. Və əgər siz bol bir ziyafətdən dərhal sonra bir neçə stəkan yaşıl çay içsəniz, səhər baş ağrısı olmayacaq.</p>
+<p>Lakin yaşıl çayın da mənfi tərəfləri var. Məsələn, orqanizmdə zəhərli sidik cövhəri əmələ gətirən çox miqdarda purin var. Purinlərin bolluğu mübadilə proseslərinin pozulmasına səbəb olur, sidik cövhəri orqanizmdən pis çıxır. Onun duzlarından iynəvari kristallar əmələ gəlir ki, bu da sonradan podaqraya səbəb olur. Artırit və revmatizm kimi xroniki xəstəliklərdən əziyyət çəkənlər, çay və ya qəhvə içməyi dayandırdıqda özlərini daha yaxşı hiss edirlər.</p>
+<p>Çayın sakitləşdirici maddələri - kofein, teobromin, teofilin - yaşıl çayda da eyni dərəcədə mövcuddur. Buna görə də, güclü çay ürək üçün zərərli ola bilər, sinir sistemini həyəcanlandırır. Kofein xaindir, çünki orqanizm stimulyasiyaya tez öyrəşir və onu getdikcə daha böyük doza tələb edir. Güclü çaydan, o cümlədən yaşıl çaydan sui-istifadə insomniya (yuxusuzluq), səhər zəifliyi, artan əsəbilik, vaxtından əvvəl yorğunluq təhlükəsi yaradır.</p>
+<p>Bundan əlavə, yaşıl çay uzaq regionlarda yetişir, buna görə də hər orqanizm üçün faydalı deyil.</p>
+<p>Beləliklə, yaşıl çay qara çay ilə eyni xammaldan hazırlanır və rəngini təkcə quru halda deyil, dəmləndikdə də saxlayır. Yaşıl çayın özünəməxsus çay qoxusu və dadı yoxdur. Bu, qızılı çalarlı yaşıl rəngdə, təzə quru ot, çiyələk yarpağı və sitrus meyvələrinin incə ətri olan bir içkidir.</p>
+<p>Yaponlar yaşıl çayı belə hazırlayırlar: çaydanına bir neçə çimdik dəmləmə töküb çox isti, lakin qaynar olmayan su əlavə edirlər, çünki guya qaynar su dadı öldürür. Sonra çayı dəmləyirlər (yaşıl çay qara çaydan təxminən iki dəfə daha uzun dəmlənir), stəkanlara süzürlər. Şəkər və süd yaşıl çay ilə uyğun deyil. Onu balla içmək daha yaxşıdır. Yaşıl çayı iki-üç dəfə dəmləmək olar.</p>
+<p>Yaşıl çayın düzgün dəmlənməsinin başqa bir üsulu: bir stəkan suya 1/2 çay qaşığı yarpaq götürün. Suyun temperaturu 70°-dən yuxarı olmamalıdır. Çayı üç mərhələdə su ilə doldurun. Əvvəlcə çaydanın üçdə biri qədər, 1-2 dəqiqə sonra - çaydanın yarısı qədər, daha iki dəqiqə sonra isə - 3/4-ü qədər. İki dəqiqə dəmləyin. Çaydanın yarısını içdikdən sonra qalan hissəsinə qaynar su əlavə edin.</p>
+<p>Ayurveda (Hindistan təbabəti) yeməkdən əvvəl, xüsusilə isti çay içməməyi məsləhət görür, çünki bu, həzm şirələrini yandırır və həzmi pisləşdirir. Çox isti çay içmək, xüsusilə ilin isti vaxtlarında, qızğın təbiətli insanlar və gənclər üçün zərərlidir.</p>
+    </article>
+  </main> 
+
+<h1 id="kabab"></h1>
+ <main class="grid">
+    <article class="card">
+      <h1 class="title">Yaxşı kababı necə hazırlamaq olar?</h1>
+<p><p style="text-align: center;"><strong>Yaz gəldi, deməli, bayram mövsümü də başlayır. Bunlar arasında, əlbəttə ki, mayın 1-də Tətil, Şənlik, Piknik və açıq havada digər əyləncəli tədbirlər bayramı var. Bəs təbiətdə sulu və cəlbedici şiş kababı olmadan necə əylənmək olar?</strong></p>
+<img src='https://i.imgur.com/wWaxgQa.jpeg' alt="Kabab">
+<p>Şübhəsiz ki, şiş kababı insanın hazırlamağı öyrəndiyi ilk yeməkdir. Əcdadlarımız hələ qədim zamanlarda od və köz üzərində yemək bişirməyi öyrənmişlər.</p>
+<p>"Şiş kababı" sözünün özü Krım tatarlarının dilində "şişlik" sözünə bənzəyir və bu, "şişdə olan bir şey" deməkdir. Gürcülər isə "mtsavadi", ermənilər "xorovats", azərbaycanlılar "kabab", türklər "şiş-kabab" deyirlər. Şiş kababı bir ənənədir və hər bir sevənin özünəməxsus "imzalı" resepti var. İdeal şiş kababının sirri yalnız mükəmməl marinadda deyil, həm də ətin qızardılmaması, bişirilməsindədir. Ət özünün bol isti suyunda, qızılı qabığa bürünərək bişməlidir, yalnız onda həqiqətən sulu və inanılmaz dərəcədə ləzzətli alınacaq!</p>
+<h3>Şiş kababının keyfiyyəti həmçinin aşağıdakılardan da asılıdır:</h3>
+<p>* şişə götürməyi planlaşdırdığınız heyvanın yaşından;</p>
+<p>* ətin sululuğundan;</p>
+<p>* tikələrin ölçüsündən.</p>
+<h3>Şiş kababı üçün hansı əti seçmək daha yaxşıdır?</h3>
+<p>Şiş kababının hazırlanması üçün ən yaxşısı təzə və gənc ətdir. Adətən quzu, donuz və ya mal əti, toyuq əti götürülür. Ət heç bir halda dondurulmuş olmamalıdır. Əvvəlcə bütün sinirlərdən xilas olmaq məsləhətdir. Şiş kababı üçün kürək və ya boyun hissəsini götürmək ideal variantdır. Ətdə daha çox yağ olması daha yaxşıdır, 
+<h3>Şiş kababı üçün marinad</h3>
+<p>Ət yumşaq olması üçün marinadlanır. Ən çox yayılmış marinad növü sirkə əsaslıdır, lakin nar suyu, quru qırmızı şərab, mineral su və ya qatıqdan istifadə etmək kimi daha təbii üsullardan istifadə etmək daha yaxşıdır. Soğanı əsirgəməyin, nə qədər çox olsa, şiş kababı bir o qədər dadlı olar! Bibər əti yumşaltmağa kömək edəcək, zirə və ya ajqon isə hər hansı bir marinad üçün əla bir əlavə olacaq. Həmçinin təzə göyərti də əlavə etmək olar.</p>
+<p>Quzu ətindən olan şiş kababı üçün qatıqlı marinad yaxşı uyğun gəlir. Qatığı təzə sıxılmış limon suyu və göyərti ilə qarışdırmaq, ya da sadəcə ətin üzərinə qatıq tökmək olar.</p>
+<p>Qatıqlı marinad toyuq əti üçün də uyğundur. Ət 1-2 saat marinadlanmalıdır.</p>
+<p>Bundan əlavə, universal marinad kimi qara bibər, şəkər və ədviyyatlarla qarışdırılmış soya sousundan istifadə etmək olar. Donuz ətini marinad etmək üçün sadə və ucuz bir üsul duzlu dada malik qazlı sudan istifadə etməkdir. Qaz baloncukları əti yumşaldır və onu çox zərif edir. Toyuq üçün marinad olaraq mayonez əla uyğun gəlir. Klassik marinad - quru ağ şərab və ədviyyatlar - qara bibər, paprika, keşnişdir. İstəyə görə şərabın içinə limon sıxmaq da olar. Donuz ətindən şiş kababı üçün limon əlavə edilmiş pomidor suyundan istifadə etmək olar. Ət marinadda olanda onu duzlamaq lazım deyil, bunu qızartma zamanı və ya sonra etmək daha yaxşıdır.</p>
+<h3>Ocaq üçün hansı odunları götürməli?</h3>
+<p>Şiş kababının hazırlanmasında odunlar da əhəmiyyətsiz yer tutmur. Hazır ətin ətri kömür üçün nəyin istifadə edildiyindən asılıdır. Ləzzətli şiş kababının hazırlanması üçün yalnız enliyarpaqlı ağac növləri uyğundur. Qətiyyən qatranlı ağac olan iynəyarpaqlı ağac növlərindən istifadə etmək olmaz, onlar ətə heç bir sousun yox edə bilməyəcəyi dad verəcəklər. Şiş kababı üçün ən yaxşı kömür üzüm tənəyindən alınan odunlardan əldə edilir. Quru meyvə ağacları da ideal "şiş kababı" materialı hesab olunur.</p>
+<p>Ərik ətə zərif ətir və şirin bir dad verir. Alma ağacı kömür üçün yaxşı materialdır. Tək çatışmazlığı - heç bir ətrinin olmamasıdır. Gavalı yaxşı yanma qabiliyyətinə malikdir və almadan daha ətirli, lakin albalı ilə rəqabət edə bilməyən davamlı kömür verir. İstənilən odunun üzərinə bir neçə albalı odunu atmaq kifayətdir, və ət inanılmaz bir ətirlə dolacaq! Şiş kababı üçün ağ akasiya, zoğal, yemişan, fıstıq ağacı və palıd da yaxşı odun kimi istifadə edilə bilər.</p>
+<p>Heç vaxt, başqa heç bir şey yoxdursa belə, çəpərlərdən olan taxtalardan şiş kababı üçün ocaq qalamayın. Hazır ağac kömürünüz varsa, ondan istifadə edin. Odunlar demək olar ki, tüstüsüz yanmalı, yaxşı isti olan çoxlu kömür verməli və qatranlı olmamalıdır. Şiş kababının hazırlanması üçün ən yaxşı manqal ənənəvi manqaldır. Pikniklər üçün manqalın hündürlüyü elə olmalıdır ki, ət kömürlərin üstündə 4-5 sm və ya daha aşağıda yerləşsin. Əgər manqalınız yoxdursa, kərpic, daş və s. kimi mövcud yanmayan materiallardan bir ocaq yığa bilərsiniz.</p>
+<h3>Kababın yanında nə verməli?</h3>
+<p>İsti, sulu və ətirli şiş kababı ilə nə vermək olar? Şiş kababının ənənəvi müşayiəti quru qırmızı şərab və ya yaşıl çaydır. Yalnız onlar yağı və ət şirəsini əridir və onun mədə divarlarında və dildə bir film kimi donmasına imkan vermir. Həmçinin adi ketçup əvəzinə isti şiş kababı ilə birlikdə təbii və qeyri-adi bir şey təqdim edə bilərsiniz. Məsələn, narşərab və ya reyhan və bibərlə qarışdırılmış albalı mürəbbəsi, yaxud ən sadəsi - içinə qırmızı bibər, keşniş və sarımsaq əlavə edilmiş qatıq.</p>
+    </article>
+  </main>
+ 
+</body>

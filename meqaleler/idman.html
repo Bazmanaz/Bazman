@@ -1,0 +1,564 @@
+<!-- hedef.html -->
+<h1 id="alfa-beta"></h1>
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dəb və Stil - BAZMAN.AZ</title>
+  <meta name="description" content="Alfa və beta kişilərin fərqləri, onların davranışları və sosial həyatda rolu haqqında ətraflı məqalə.">
+  <link rel="stylesheet" href="../style.css">
+  <script defer src="../script.js"></script>
+  <style>
+    /* Məqalə konteyneri */
+    .card {
+      width: 90%;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    /* Başlıq */
+    .card h1.title {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    /* Mətn */
+    .card p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    /* Şəkillər */
+    .card img {
+      width: 50%;
+      height: auto;
+      display: block;
+      margin: 15px auto 30px auto;
+      border-radius: 8px;
+      object-fit: contain;
+    }
+
+    /* iframe adaptiv və scroll-suz */
+    .responsive-iframe {
+      width: 100%;
+      max-width: 310px;
+      aspect-ratio: 310 / 514;
+      border: 0;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Mobil uyğunluq */
+    @media (max-width: 768px) {
+      .card {
+        width: 95%;
+        padding: 10px;
+      }
+      .card img {
+        width: 95%;
+      }
+    }
+
+    /* Tema dəyişmə düyməsi */
+    .theme-toggle-btn {
+      cursor: pointer;
+      font-size: 1.2em;
+      padding: 5px 10px;
+      border: none;
+      background: none;
+    }
+	
+  /* Loqo ölçüsü */
+  .brand img {
+    width: 120px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+ /* Flex container əlavə olunur */
+  .page-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 90vh; /* viewport hündürlüyü */
+  }
+
+ .sidebar {
+  flex: 0 0 20%; /* ekranın 20%-i qədər */
+  position: sticky;
+  top: 20px;
+  height: calc(100vh - 40px);
+}
+
+
+  .sidebar iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  /* Sağ blok (məqalələr) */
+  .content {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  /* Dark theme sağ blok üçün */
+  body.dark-theme .content {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  body.dark-theme .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+  }
+
+  /* Mobil uyğunluq */
+  @media (max-width: 768px) {
+    .page-container {
+      flex-direction: column;
+      height: auto;
+    }
+    .sidebar {
+      position: relative;
+      top: 0;
+      height: 300px;
+    }
+    .content {
+      overflow-y: visible;
+    }
+  }
+  
+  /* Chrome, Safari, Opera üçün */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox üçün */
+body {
+  scrollbar-width: none;
+}
+
+/* IE və Edge üçün */
+body {
+  -ms-overflow-style: none;
+}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="https://i.imgur.com/LOhQRks.jpg" alt="BAZMAN.AZ loqosu">
+    </div>
+    <nav class="nav">
+      <a href="../index.html">Əsas</a>
+      <a href="meqaleler.html">Məqalələr</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle-btn">🌙</button>
+  </header>
+  
+   <div class="page-container">
+    <!-- Sol blok -->
+    <aside class="sidebar">
+      <iframe class="responsive-iframe" src="render.html" title="Məzmun iframe-i"></iframe>
+    </aside>
+
+    <!-- Sağ blok -->
+	 
+		<section class="content">
+<h1 id="artiq-ceki"></h1>		
+    <main class="grid">
+      <article class="card">
+      <h1 class="title">Artıq çəki problemi</h1>
+      <h2">İdmanla yeni məşğul olmağa başlayanlar və ya uzun fasilədən sonra idmana qayıdanlar üçün gediş ən yaxşı aerobik məşq növüdür.</h2>
+<img src='https://i.imgur.com/aps3pXx.jpeg'</p>
+<h3>Gediş</h3>
+<p>İdmanla yeni məşğul olmağa başlayanlar və ya uzun fasilədən sonra idmana qayıdanlar üçün gediş ən yaxşı aerobik məşq növüdür. Bu sadə və rahat məşqdir, xüsusi avadanlığa xərcləməyə ehtiyac yoxdur.</p>
+<p>Üstəlik, çox effektivdir: 1,5 km gediş təxminən 100 kalori “yandırır”.</p>
+<p>Yeni başlayanlara həftədə üç dəfə 20 dəqiqə gəzmək tövsiyə olunur. Bir neçə həftədən sonra müddəti yarım saata qədər artırın.</p>
+<p>Hazır olduğunuzu hiss etdikdə, həftəyə bir-iki gediş əlavə edin. Nəticədə məşq proqramınızı həftədə beş gedişə, hər biri 30-45 dəqiqə olmaqla çatdırmağa çalışın. Gediş sürətli olmalıdır ki, ürək ritmi hədəf səviyyəsində qalsın.</p>
+<h4>Bəzi əlavə tövsiyələr:</h4>
+<p> Çənəni qaldırın və ayaqlara deyil, düz önünüzə baxın.</p>
+<p> Dirəkləri azca bükün və yanlara yaxın saxlayın. Gediş zamanı əllərinizi istifadə edin, elə ki, qaçarkən də istifadə olunur.</p>
+<p> İlk olaraq topuqla yerə toxunun, sonra barmaq uclarına “yuvarlanın”. Növbəti addıma hərəkət əlavə etmək üçün barmaq uclarıyla itələyin.</p>
+<p>Addımlar geniş olmalıdır.</p>
+<p>Mümkün qədər sürətlə gedin. Gediş zamanı nəfəs dərindən və sərbəst olmalıdır (tutmaq olmadan).</p>
+<h4>Çəki əlavə etməklə gediş</h4>
+<p>Gediş zamanı özünüzü qəsdən “çəki ilə yükləyə” bilərsiniz: ayaq biləklərinə, arxaya, kəmərə yük bağlamaq və ya sadəcə kiçik dumbbell-lər götürmək.</p>
+<p>Çəki əlavə edilmiş gedişin üstünlüyü odur ki, aerobik məşqin intensivliyini qaçmağa keçmədən artırır. Elmə görə, ayaq biləklərinə və ya əllərə çəkilən yük ilə gediş, 8 km/saat sürətlə qaçmaqla müqayisə edilə bilər və çox sürətlə gedildikdə hətta onu üstələyir.</p>
+<p>1,5 km məsafədə “çəki ilə gediş” 158 kalori yandırır, eyni məsafədə qaçış isə 130 kalori.</p>
+<p>Əlavə çəki tədricən artırılmalıdır. Əvvəlcə heç bir yük olmadan gəzin, sonra yarım kiloqram çəki əlavə edin. Beləliklə, hər dəfə 0,5 kq əlavə edərək (idman çantası ilə arxaya), yükü bədən çəkisinin təxminən 5-10 faizinə çatdırmağa çalışın.</p>
+<p>Diqqət: Çəki ilə gedişin oynaqlar üçün təhlükəsiz olmadığı fikri mövcuddur!</p>
+<h4>İdman gedişi</h4>
+<p>İdman gedişi nədir? Bu artıq adi addım deyil, amma hələ də qaçış deyil. Adi gedişdən fərqi odur ki, ayaqlar dizdən bükülmür.</p>
+<p>İdman gedişi adi gedişdən daha çox kalori yandırır. Burada birbaşa asılılıq var: nə qədər sürətlə gedirsinizsə, bədəninizdə yağ bir o qədər az qalır.</p>
+<p>İdman gedişi texnikasını mənimsəmək üçün əhəmiyyətli vaxt tələb olunur. Bunu, əlbəttə, ixtisaslı məşqçi ilə öyrənmək olar.</p>
+<p>Amma onun xidmətindən istifadə etmək imkanı yoxdursa, problem deyil. Hər şey o qədər də çətin deyil. Konkret tövsiyələr:</p>
+<p>* Dirəklər təxminən 90 dərəcə bucaq altında bükülməlidir. Bədən yuxarı hissəsi rahat, əllər gediş ritminə uyğun sərbəst hərəkət etməlidir.</p>
+<p>* İdman gedişi hündürlükdə gediş kimidir. Hər iki ayaq düz olmalıdır, dizləri bükməyin. Dəstək ayaq sonradan yerə toxunmalıdır – elə ki, hündürlükdə gedişdə olduğu kimi.</p>
+<p>* Ayaqlar düz olmalıdır, amma ayaq əzələlərini sərtləşdirməyin. Əksinə, şüurlu olaraq əzələləri rahat buraxın. Hərəkət düz ayağın sürtülməsi ilə baş verməlidir. Əvvəlcə topuq yerə toxunmalıdır, arxada qalan ayaqla eyni zamanda itələmə baş verir. Bədən 7-10 sm irəli əyilməlidir.</p>
+<h4>Qaçış</h4>
+<p>Bəzən gedişlə ürək ritmini hədəf səviyyəyə çatdıra bilməyəcəyiniz olur. Belə hallarda yüngül qaçış edin. Qaydası: qaçış sürətini tədricən artırın. Zamanla daha effektiv həqiqi qaçışa keçə bilərsiniz. Hər halda, həftədə qaçış məsafəsini 10% artırmalısınız. Bu hər hansı sağlamlıq qaçışı üçün əsas qaydadır.</p>
+<p>Daha bir neçə tövsiyə:</p>
+<p>* Xüsusi qaçış ayaqqabıları alın, qalın altlığı qaçışda sarsıntını azaldır. Yaxşı alınan ayaqqabıda qaçış asan olur.</p>
+<p>* Asfalt üzərində qaçmayın. Sərt eniş diz, bilək və bel üçün zərərli ola bilər. Daha yaxşısı çiyəkdə qaçmaqdır.</p>
+<p>* Arxa düz, çənə qaldırılmış olmalıdır. Qamət əyilmiş olmamalıdır.</p>
+<p>* Dirəkləri 90 dərəcə bükün və bədənə yaxın saxlayın. Əllər qaçış zamanı fəal kömək etməlidir.</p>
+<p>* Nəfəsi tutmayın, ritmə uyğun sərbəst nəfəs alın.</p>
+<h4>Velosiped</h4>
+<p>Yağla mübarizədə əla köməkçidir: saatda 500 kaloriyə qədər yandırmaq olar. Həm də gözəl bud formalaşdırır. Amma sürməyi bacarmaq lazımdır.</p>
+<p>Başlanğıc üçün 20 dəqiqəlik velosiped sürüşləri həftədə 2-3 dəfə kifayətdir. Hər həftə məsafəni artıra bilərsiniz.</p>
+<p>Arıqlama təsirini artırmaq üçün bəzən sürətli düz xətt sürüşləri edin. Sürəti tədricən artırın və maksimuma çatana qədər saxlayın. Ən uzun müddət həmin sürətdə qalın, sonra temp azaldın.</p>
+<p>Velosipeddə budlar aktiv işləyir. Yük güclüdür, buna görə də ardıcıl günlər sürmək olmaz – bud əzələləri istirahət etməlidir.</p>
+<p>Təhlükəsizlik qaydalarına riayət edin: Parlaq geyim, xüsusi kask.</p>
+<h4>Üzgüçülük</h4></p>
+<p>Bədən quruluşunu düzəltmək üçün üzgüçülüyü istifadə etmək istəyirsinizsə, ən aktiv üç üslubu mənimsəyin: brest, sərbəst və arxaya üzmə.</p>
+<p>Başlanğıc üçün 5-10 dəqiqəlik yavaş istiləşmə, rahat sürətlə üzmə. Sonra həftəlik məsafəni tədricən artırın.</p>
+<p>Məşqi yavaş üzmə ilə bitirin, rahatlaşmaq üçün.</p>
+<p>Üzgüçülük çox xoş aerobik məşqdir, ürək-damar sistemini möhkəmləndirir, amma arıqlamaq üçün az uyğundur. Soyuq və ya çox soyuq suya üzmək bədənin yağ yığmasına səbəb ola bilər. İntensiv üzgüçülük çəki artırmaya bilər, amma arıqlamağa kömək etməz.</p>
+<p>Üzgüçülük əsasən I-forma bədənə sahib olanlara tövsiyə olunur, onların məqsədi çəki artırmaqdır, azaltmaq deyil.</p>
+<h4>İdman klublarında aerobika</h4>
+<p>Qrup məşqləri sevirsinizsə, əsas üç variant var: rəqs aerobikası, step-aerobika və aqua-aerobika.</p>
+<strong>**Müasir trenajorlar**</strong></p>
+<p>Çoxlu yüksək texnologiyalı avadanlıq mövcuddur: velotrenerlər, pilləkən və xizəklə gedişi təqlid edən trenajorlar, qayıq çəkən trenajorlar, qaçış yolları.
+<h4>Krossrobiks</h4>
+<p>Krossrobiks – supermodern trenajor, elektron beyinli velotrener kimidir.</p>
+<p>Adi velotrenerdə pedal müqavimətini əl ilə tənzimləyirsiniz, burda isə kompüter özü dəyişir, dağ və yamac, sərt və yumşaq torpaq, hətta qumu təqlid edir.</p>
+<p>Bu həm əyləncəlidir, həm də ürək ritminizi izləyir və fərdi aerobik yük təyin edir.</p>
+<p>Krossrobiks trenajorunda fərqli çətinlik proqramları var, məşq səviyyənizə uyğun yük təklif edir. Bu, elektron aerobik məşqçidir. Yalnız qiyməti çox yüksəkdir, elit klublarda rast gəlinir.</p>
+<h4>Xizəklə trenajorlar</h4>
+<p>Velotrenerin üst bədəni aktivləşdirməməsi çatışmazlıqdır. Xizəklə trenajor bunu aradan qaldırır. Əlləri və ayaqları irəli-geri hərəkət etdirirsiniz, bəzi modellər qar müqavimətini təqlid edir. Amma bahalıdır.</p>
+<h4>Velotrenerlər</h4>
+<p>Ucuz stasionar velosipedlər ən populyar aerobik trenajor növüdür. Effektivdir, amma darıxdırıcıdır. Pedallar dönməkdən yorulursunuz. Müqaviməti dəyişmək olar, azca müxtəliflik gətirir.</p>
+<p>Oturacağın hündürlüyünü düzgün tənzimləmək vacibdir. Yüksək və ya aşağı oturacaq dizlərə yük artırır. Pedalı aşağı vəziyyətə qoyun, oturun, diz azca bükülü olmalıdır.</p>
+<p>Ev üçün trenajor alırsınızsa, sadə model deyil, ürək ritmi ölçən, yandırılan kalori və məsafə ölçən model seçin. Yağ azaldıcı effekt yalnız düzgün ürək ritmi ilə olur – maksimumun 65-80%-i.</p>
+<h4>Uzanıqlı velotrenerlər</h4>
+<p>Uzun müddət pedal fırladanlar “arxa ağrıyır” deyir. Uzanıqlı velotrener arxalıqlı rahat oturacaq verir, pedallar ön tərəfdədir. Əsasən çox çəki və bel zədəsi olanlara tövsiyə olunur.</p>
+<h4>Qayıq çəkən trenajorlar</h4>
+<p>Yuxarı bədən əzələlərini işlətmək ürək üçün faydalıdır. Əsas yük əllərdə və arxa əzələlərdədir, ayaqlar da iştirak edir, sinə və qarın əzələləri də işə düşür. Güclü yağ yandırma effekti var.</p>
+<p>Əsas yük çox olduğundan məşq çətindir. Tövsiyə: yarısını qayıq, yarısını pilləkən trenajoru və ya velosipedlə məşq edin.</p>
+<h4>Sürüşmə trenajorları</h4>
+<p>Əsas hissə: 2 m lövhə, sürüşkən örtük. Bu hərəkətlər alt bədən əzələlərini möhkəmləndirir.</p>
+<p>Bu trenajorlarla məşq 20% daha çox yağ yandırır, velosipeddən 16% çox. 10 dəqiqə sürüşmə 74 kalori yandırır, adi aerobika 15 dəqiqə daha çox tələb edir. Nisbətən ucuzdur.</p>
+<h4>Pilləkən trenajorları</h4>
+<p>Mexaniki pilləkənlər gediş, qaçış və velosipeddən daha çox kalori yandırır. Ürək döyüntüsünü artırır, alt bədən əzələlərini möhkəmləndirir.</p>
+<p>Amma yalnız təcrübəli idmançılara tövsiyə olunur. Yeni başlayanlar ürək ritmini həddən az saxlamalıdır (maksimumun 65%-i).</p>
+<h4>Qaçış yolu</h4>
+<p>Evdə və ya idman zalında gediş və qaçış imkanı verir. Sürəti və yamac bucaqını tənzimləmək olar. Kompüterli modellər məşq zamanı sürət və yamacı dəyişir.</p>
+<p>Qaçış yolu adi qaçış kimi yüksək intensiv aerobikdir, diz, bilək və bel üçün yük çoxdur. Bel ağrıyırsa, istifadə etməyin.</p>
+<p>Yağ yandırmaq üçün əllərinizi qaçış ritminə uyğun fəal istifadə edin.</p>
+    </article>
+  </main>
+ 
+ <h1 id="derialti-yaq"></h1>	
+ <main class="grid">
+    <article class="card">
+	  <h1 class="title">Dərialtı yağlardan qurtulmaq: məşq və qidalanma üzrə tövsiyələr</h1>
+<h4>Arıqlamış, artıq yağdan azad bir bədən – bir çox kişi üçün hədəfdir. Hələ də arzulanan bədəni yaratmağın ən yaxşı yolu – davamlı məşq etmək və düzgün qidalanmaqdır. Biz sənin üçün yağları yandırmaq və bədəni forma salmaq haqqında ən faydalı məlumatları topladıq.</h4>
+<p>Yağ yığıntıları üç növə bölünür: <b>“hormonal”, visseral</b> (daxili orqanlarda yığılan) və <b>dərialtı</b>. Hər bir halda fərqli yanaşma tələb olunur. Hormonal səbəblərlə yığılan yağlar kişilərdə adətən bel və qarın nahiyəsində olur. Bu, yüksək qlikemik indeksli karbohidratlı qidaların qəbulu nəticəsində insulin istehsalının artması ilə bağlıdır. Artıq çəkiyi azaltmaq üçün insulin səviyyəsini normallaşdırmaq vacibdir, buna görə də qidalanmaya diqqət yetirmək lazımdır.</p>
+<p>Daxili orqanlarda yığılan yağlar isə metabolizmi pozduğu üçün təhlükəlidir. Onlarla mübarizə aparmaqda intensiv kardio məşqlər kömək edir – məşq zamanı ifraz olunan adrenalin yağ hüceyrələrini asanlıqla parçalayır. Çox kök insanlar hətta pəhriz saxlamadan da kardio sayəsində tez arıqlayır.</p>
+<p>Dərialtı yağ isə hər kəsdə olur və bu normaldır. Onun miqdarı normanı aşmadıqda sağlamlığa mənfi təsir etmir. Buna görə də onun aradan qaldırılması əsasən estetik məqsədlidir. Normal sayılır ki, bədəndə 15-25% yağ yığıntısı olsun. Eyni miqdarda yağ olan insanlar isə fərqli görünə bilərlər – əzələ kütləsi, dəri tonu və digər amillərə görə.</p>
+<h3>Dərialtı yağla necə mübarizə aparmaq olar</h3>
+<img src='https://i.imgur.com/IkU8TKw.jpeg' alt="Dərialtı1">
+<p>Adətən, insanın çəkisi az olduqda əlavə kilo vermək daha çətindir. Sərt pəhrizlər və yüksək intensiv məşqlər dərialtı yağla mübarizədə çox effektli deyil və hətta əzələ kütləsinin itirilməsinə səbəb olaraq zərər verə bilər. Sağlam insan, piylənmə və digər xəstəliklərdən əziyyət çəkmirsə, yağ yandıran məşqlərə fokuslanaraq və düzgün qidalanaraq dərialtı təbəqədən xilas ola bilər.</p>
+<p>Bu halda <b>pəhriz fiziki aktivlikdən daha böyük rol oynayır.</b> Çünki artıq insulin sərbəst yağ turşularının parçalanmasına mane olur. Buna görə karbohidratları və ümumi kalorini azaltmaq vacibdir. Gündəlik kaloriyi ən azı 400 kcal azaltmaqla, əlavə məşq olmadan da çəki azala bilər. Optimal qidalanma, minimal karbohidratla, məsələn, siklik keto-pəhriz çox yaxşı nəticələr verir.</p>
+<p>Təəssüf ki, məşq zamanı yağ dərhal əriməyə başlamır. Enerji üçün bədən əvvəlcə qlikogen (karbohidrat) sərf edir. Yağın yanması üçün ən azı 40 dəqiqə məşq etmək lazımdır. Əgər qlikogen ehtiyatı çoxdursa, yağ yanması gecikə bilər.</p>
+<p>Buna görə də dərialtı yağdan qurtulmaq üçün kardio məşqləri seçmək və ürək döyüntüsünü yağ yandırma zonasına uyğun saxlamaq daha məqsədəuyğundur. Belə məşqlərdə və aşağı karbohidratlı pəhrizdə insulin səviyyəsi normallaşır, qan qlükozası azalır və çəki tədricən itir.</p>
+<b>Güc məşqlərinə gəldikdə</b>
+<img src='https://i.imgur.com/RDfBKYK.jpeg' alt="Dərialtı2">
+<p>Güc məşqlərindən də çəkinmək lazım deyil. Onlar da artıq çəkidən xilas olmaq və arzulanan əzələ tonusunu yaratmaqda kömək edir. Güc məşqləri zamanı qlikogen ehtiyatı tükənir və bədən enerjini əzələlərdə saxlamağa alışır, əzələlər isə daha sərt və əzələli görünür. Ştanqa təkan və digər çoxgövdəli məşqlər testosteron, böyümə hormonu və yağ yandırmaya cavabdeh digər hormonların ifrazını artırır. Amma burada qərar vermək lazımdır: əzələ artırmaq yoxsa arıqlamaq? Hər ikisini eyni anda etmək mümkün deyil.</p>	
+<b>Qidalanma üzrə tövsiyələr</b>
+Qidalanma çox vacibdir, amma həmişə xüsusi pəhrizə riayət etmək lazım deyil. Əgər artıq yağ azdırsa, sadə qaydalara əməl etməklə ondan xilas olmaq mümkündür:
+<img src='https://i.imgur.com/tuScZXd.jpeg' alt="Dərialtı3">
+<p><b>Şəkəri məhdudlaşdır:</b> Səbəbi yalnız kalorisi deyil. Hətta kiçik bir şokolad qlükoza səviyyəsini artırır, sonra isə kəskin düşür, aclıq və enerjisizlik yaradır, nəticədə daha çox yeyirsən.</p>
+<p><b>Yaşıl tərəvəzlərin lifləri</b> qidaların qlikemik indeksini azaldır, doyma hissini uzadır və qan qlükozasının sürətli dəyişməsinin qarşısını alır.</p>
+<p><b>Boş kaloriləri qəbul etmə:</b> Əsasən mayelərdən söhbət gedir. Şəkərli çay, qəhvə, qazlı içkilər, paketlənmiş şirələr doyum vermir, amma əlavə kalori gətirir. Hətta təzə sıxılmış meyvə şirələri də müəyyən miqdarda şəkər ehtiva edir.</p>
+<p><b>Gecə yeməyi ilə həddindən artıq yeməkdən çəkin: </b>Dərialtı yağ daha çox axşam yeməyindən əlavə olunur, çünki yuxuda metabolizm yavaşlayır. Gecə mümkün qədər az yeyin, amma səhər yeməyi və nahar yaxşı olsun.</p>
+<p>Dərialtı yağ adətən <b>balanssız qidalanma və karbohidratların çoxluğu nəticəsidir.</b> Onu aradan qaldırmaq üçün qidalanmaya diqqət yetirmək lazımdır. Məşqlər – həm kardio, həm güc – yalnız əlavə vasitədir, bu da bədəni formalaşdırmağa və çəkiyi tədricən azaltmağa kömək edir.</p>
+<img src='https://i.imgur.com/kKSn4A4.jpeg' alt="Dərialtı2">
+    </article>
+  </main>
+ 
+ <h1 id="fitnes"></h1>	
+   <article class="card">
+	<h1 class="title">Fitneslə məşğul olmağın 5 səbəbi</h1>
+    <p style="text-align: center;"><strong>İşdə nəyisə daha tez anlamaq istəyirsiniz? </p><p style="text-align: center;">Axşam evə gələndə özünüzü insan kimi hiss etmək? </p><p style="text-align: center;">İkinci yarınızla vaxtı yalnız televizor qarşısında yataqda deyil, başqa cür də keçirmək? </strong></p>
+<img src='https://i.imgur.com/HFK3sS0.jpeg' alt="Fitnes1">
+<p style="line-height: 1.5;">Şirniyyat yemək, bununla yanaşı vicdan əzabı çəkməmək? Əgər cavabınız “bəli”dirsə (kim “yox” deyər ki?), onda qarşınızda fitneslə məşğul olmağın bəlkə də bilmədiyiniz beş danılmaz üstünlüyü var.</p>
+<b>Bədəninizi məşq etdirərək, beyninizi də məşq etdirirsiniz</b>
+<p style="line-height: 1.5;">Məşqlər təkcə əzələləri gücləndirmir, həm də serotoninin səviyyəsini artırır – daha tez və aydın düşünməyə kömək edən hormon. İşdə daha çox şeyə çatacaq, daha az yorulacaqsınız. Bundan başqa, serotonin əhval-ruhiyyəni dəstəkləməyə kömək edir, bizi daha mehriban və pozitiv edir ki, bu da iş yoldaşları ilə ünsiyyətdə az əhəmiyyətli deyil.</p>
+<b>Hərəkət əsəb gərginliyini aradan qaldırır</b>
+<p style="line-height: 1.5;">Məşqlərə başlamaq fikri sizdə stress yarada bilər, amma məşqlərin özləri həyatınızı hər baxımdan daha sakit edə bilər. Fiziki aktivlik istənilən formada artıq xoşagəlməz fikirlərdən yayındırır, şüurunuzu dəyişməyə və dincəlməyə imkan verir. Daha rahat olduqda, bunun faydasını təkcə siz yox, ətrafınızdakılar da görür.</p>
+<b>Fitnes münasibətlərin qurulmasına kömək edir</b>
+<p style="line-height: 1.5;">Birlikdə məşq etmək həmişə daha əyləncəlidir. Dostunuz, həyat yoldaşınız, ya da iş yoldaşınızla məşqə gəlin və bunun sizə hər ikinizə yeni stimul verdiyini görəcəksiniz. Adətən, başqası ilə birlikdə məşq edənlər məqsədlərinə tək məşq edənlərdən daha tez çatırlar. Bu, xüsusilə arıqlamaq istəyənlər üçün vacibdir.</p>
+<b>Fiziki yüklənmə bədəninizi daim mükəmməlləşdirir</b>
+<p style="line-height: 1.5;">Cəmi bir neçə həftəlik daimi məşqlərdən sonra geyimlərin sizə başqa cür oturduğunu, daha dartılmış və idmançı göründüyünüzü görəcəksiniz. Dostlarla futbol və ya badminton oynamağı sevirsinizsə, daha dözümlü və çevik olduğunuzu, reaksiyanızın sürətləndiyini də hiss edəcəksiniz.</p>
+<b>Müntəzəm məşqlə daha çox yeyə bilərsiniz</b>
+<p style="line-height: 1.5;">Daimi məşqlər və güclənmiş əzələlər maddələr mübadiləsini sürətləndirir, yəni indi özünüzə bəzən o yeməkləri də icazə verə bilərsiniz ki, əvvəllər sizi arıq bədəndən on addım geri salardı. Əlbəttə, siz yenə də düzgün qidalanırsınız, amma! O sevimli şirniyyatı indi gizlincə və hər dişləmədə özünüzü qınamadan deyil, vicdanınız təmiz halda yeyə bilərsiniz, çünki bilirsiniz ki, sabah məşqdə o “yanacaq”.</p>
+    </article>
+  <h1 id="is-gunu"></h1>	
+ <main class="grid">
+    <article class="card">
+	<h1 class="title">İş günü ərzində dartınma məşqləri</h1>
+<p>Şəxsi ehtiyaclarınız üçün sərf edəcəyiniz on beş dəqiqə ərzində illik hesabatlar öz-özünə yox olmayacaq, amma işdən də qovulmayacaqsınız. İşdə bu dartınma məşqlərini edərkən özünüzü belə inandırmalısınız.</p>
+<p>Əksər məşqləri yerinə yetirmək üçün hətta sevimli ofis kreslonuzdan belə qalxmağa ehtiyac yoxdur.</p>
+<h3>Sinə – qabağa</h3>
+<p>Kresloda oturaraq əllərinizi qolluqlara qoyun və sinənizi mümkün qədər irəli çıxarmağa çalışın ki, o həqiqətən “təkər” kimi görünsün. Bu vəziyyətdə 10 saniyə qalın, ümumilikdə 5-10 dəfə təkrarlayın.</p>
+<h3>Çiyinlər – arxaya</h3>
+<p>Vəziyyət eynidir, amma əlləri budlara qoyun. İradənizlə kürək sümüklərinizi birləşdirərək çiyinləri arxaya çəkin. Qaydalar eynidir: 10 saniyə saxlayın və 5-10 dəfə təkrarlayın.</p>
+<h3>Baş – aşağı</h3>
+<p>Hələ də kresloda oturaraq başınızı bir qədər aşağı əyin, elə bil kiməsə razılıq verirsiniz. Bu zaman boyun əzələlərinizin dartıldığını hiss etməlisiniz. 15 saniyə saxlayın və məşqi 10 dəfə təkrarlayın.</p>
+<h3>Əllər – başın arxasına</h3>
+<p>Üst kürək əzələlərini (romboidlər) aktivləşdirmək üçün ayağa qalxın, əllərinizi başınızın arxasına qoyun və dirsəkləri arxaya çəkərək kürək sümüklərinizi birləşdirin. Qaydalar eynidir: 10 saniyə saxlayın, 5-10 dəfə təkrarlayın.</p>
+<h3>Dirsəklər – arxaya</h3>
+<p>Əllərinizi arxaya gətirin, barmaqlarınızı birləşdirin və çiyin əzələlərini gərginləşdirin. Bu da kürək əzələlərini işlədəcək, amma bir az aşağı hissədə. 5-10 dəfə təkrarlayın.</p>
+<h3>Üz – divara</h3>
+<p>Divarın küncünə üzünüzü tutaraq durun, əllərinizi qaldırın və divara söykəyin. İndi sinə əzələlərinizi gərginləşdirin və təxminən 15 saniyə bu vəziyyətdə qalın. Kiçik bir məsləhət: əlləri yuxarı qaldırıb endirərək sinə əzələlərinin müxtəlif hissələrini gərginləşdirə bilərsiniz. Bu məşqi gün ərzində bir neçə dəfə, hər dəfə fərqli şəkildə yerinə yetirmək daha faydalıdır.</p>
+    </article>
+  </main>
+
+<h1 id="ariqlama"></h1>	
+ <main class="grid">
+    <article class="card">
+	<h1 class="title">Kişi necə arıqlaya bilər?</h1>
+   <img src='https://i.imgur.com/38F7saQ.jpeg' alt="Arıqlama1">
+<p>Əvvəlcə yaxşı xəbər – kişilər qadınlardan 2 dəfə tez arıqlayır. Qarın əzələləri, bel və qollar daha tez formaya düşür, dartılır və relyef qazanır. Bu, kişilərdə maddələr mübadiləsinin qadınlardan bir qədər fərqli olması ilə bağlıdır. Təbiət kişini uşaq doğmağa məcbur etmir, buna görə də orqanizmə daim kalorilərin ehtiyatı lazım deyil.</p>
+<p>Arıqlamanın əsasında qəbul edilən kalorilərlə bədənin sərf etdiyi enerji arasındakı disbalans dayanır. Artıq çəki adətən kifayət qədər və müntəzəm fiziki yüklənməyən və ya çox yeməyə öyrəşmiş kişilərdə yaranır.</p>
+<p>Piylərin toplanmasına uzun müddət oturaq həyat tərzi (kompüter, sükan arxası), gün ərzində ağır yeməklər, gecə çox yemək, fastfud və spirtli içki aludəçiliyi səbəb olur.</p>
+<p>Əgər “maço” olmaq istəyirsənsə, qadın pəhrizləri ilə arıqlamağa dəyməz. Çünki qadın orqanizmi bir qədər fərqlidir. Qadınlar asan karbohidratları azalda bilir və çox zülala ehtiyac duymur. Kişinin isə qadına nisbətən 2 dəfə çox zülal qəbul etməsi lazımdır. Kişi orqanizmi karbohidratları daha asan yandırır.</p>
+<h3>Kişi və qadında piylənmənin fərqi</h3>
+<p>Kişilərdə daha çox qarın tipli piylənmə olur. Bu halda qarında, qaraciyərdə, ürək əzələsində, əzələlərdə və digər orqanlarda yağ yığılır.</p>
+<p>Nəticədə hipertoniya, ürəyin işemik xəstəliyi, ürək-damar fəsadları, 2-ci tip şəkərli diabet riski artır. Çəki normadan 100% çox olduqda risk çox yüksək sayılır.</p>
+ <img src='https://i.imgur.com/19A1WPm.jpeg' alt="Arıqlama2">
+<h3>Kişilərdə arıqlamanın özəlliyi</h3>
+<p>Kişilər qadınlara nisbətən daha asan arıqlayır. Çünki kişi hormonları yağların parçalanmasını sürətləndirir, qadın hormonları isə əksinə, yağların sintezini gücləndirir.</p>
+<p>Buna görə də arıqlama prosesində kişidə testosteron səviyyəsinin yoxlanması və normallaşdırılması vacibdir. Əgər hormon səviyyəsi aşağıdırsa, inyeksiya, tablet və ya plastır formasında testosteron əvəzedici müalicə tətbiq oluna bilər.</p>
+<h3> Kişi necə arıqlaya bilər?</h3>
+<p>* Aktiv həyat tərzi sürmək, alınan kaloriləri xərcləmək.</p>
+<p>* Düzgün qidalanmaq: az-az, amma tez-tez yemək, səhər yeməyi mütləq, gecə çox yeməmək. Ən yaxşısı Aralıq dənizi tipli qidalanmadır.</p>
+<p>* Həftədə bir gün yalnız su (və ya təzə tərəvəz şirəsi) ilə “boşalma günü” etmək.</p>
+<p>* Problemləri yeməklə ört-basdır etməmək.</p>
+ <img src='https://i.imgur.com/dbenYnC.jpeg' alt="Arıqlama3">
+<h3>Kişi necə tez arıqlaya bilər?</h3>
+<p>Qısa müddətdə arıqlamaq mümkündür, amma bu orqanizm üçün təhlükəlidir.</p>
+<p>Çox sürətli arıqlama nəticəsində dəri sallana və quruyar, təzyiq yüksələr, ödem yarana, həzm sistemi pozula bilər. Ən pis ehtimal – sürətli itirilən çəkidən sonra daha artıq kilo geri qayıda bilər. Optimal variant – ayda 1,5–2 kq arıqlamaqdır. Bu halda orqanizm uyğunlaşmağa vaxt tapır.</p>
+<p>Arıqlamaq həm kişilər, həm də qadınlar üçün ağır işdir və yalnız fiziki yox, psixoloji sınaqdır. Kimsə asan yol vəd edirsə, inanma. Yalnız düzgün qidalanma və müntəzəm idman nəticə verir.</p>
+    </article>
+  </main>
+
+<h1 id="qarin-ezeleleri"></h1>	
+ <main class="grid">
+    <article class="card">
+	<h1 class="title">Qarın daxili əzələləri üçün məşq</h1>
+	<p style="text-align: center;">İdmanla yeni məşğul olmağa başlayanlar və ya uzun fasilədən sonra idmana qayıdanlar üçün gediş ən yaxşı aerobik məşq növüdür.</p>
+<img src='https://i.imgur.com/f2r7stV.jpeg' alt="Qarın1">
+<h2>Qarın əzələləri: bir az anatomiyası</h2>
+<p>Qarın boyunca düz əzələ yerləşir və pubik sümüyündən başlayır. Qarının ön hissəsində, yanlarda və qismən döşdə isə xarici əyri əzələ yerləşir; bu əzələ qarın bölgəsinin ən geniş əzələsi hesab olunur.</p>
+<p>Daha aşağıda daxili əyri əzələ yerləşir, bu qarın əzələlərinin ikinci qatıdır, onun altında isə anatomik olaraq qarının üfüqi əzələsi mövcuddur ki, bu da qabırğaları dartır və qarın boşluğunun həcmində azalma yaradır.</p>
+<h2>Qarın əzələlərini necə işlətmək olar?</h2>
+<p>Əgər daxili qarın əzələləri məşq olunmayıbsa, onlar kifayət qədər daxili orqanları dəstəkləmirlər və nəticədə qarın yuvarlaqlaşır və çıxıntılı olur. Bu, insana əhəmiyyətli narahatlıq verir və müxtəlif məşqlərə müraciət etməyə səbəb olur.</p>
+<p>Ən çox hansı əzələlər üzərində işləmək lazımdır? Əvvəlcə düz qarın əzələsi – hər kəsin “press” adlandırdığı hissə. Əksər məşqlər məhz bu əzələni işlədərək “kubiklər” yaratmağa yönəlib.</p>
+<p>Xarici əyri əzələləri inkişaf etdirmək üçün yan əyilmə və yan bükülmə məşqlərindən istifadə etmək olar. Amma unutma: birincisi, bu əzələni çox işlətmək belin geniş görünməsinə səbəb ola bilər; ikincisi, bükülmə məşqləri daxili əyri və üfüqi əzələləri işləmir.</p>
+<h2>Qarını dartılmış etmək üçün</h2>
+<p>Əgər yalnız kubiklər yox, həm də gərilmiş və formalaşmış qarın istəyirsənsə, daxili əzələləri də işlətmək lazımdır. Bu əzələlər bədən skeletini yaradır və korpusu dartaraq torso daha idmançı görünür.</p>
+<p>Daxili qarın əzələləri üçün məşqlər əsasən **statikdir**, bu da onları xarici əzələlər üçün məşqlərdən fərqləndirir. Əvvəlcə bu əzələləri hiss etməyi öyrən, sonra onları mümkün qədər uzun müddət gərilmiş vəziyyətdə saxlamağı öyrən.</p>
+<h2>Məşq: “Qarın vakuumu”</h2>
+<p>Başlanğıc vəziyyəti: arxası üstə uzan, dizləri bük və ayaqları yerə qoy, əlləri yanlara qoy. Nəfəsini çıxarıb qarını güclü şəkildə dart. Bu vəziyyətdə mümkün qədər uzun müddət qal, sonra nəfəs al və məşqi təkrarla.</p>
+<p>Məqsəd: nəfəs verərkən qarını dartmaqla yanaşı, “kiçik nəfəs qısmaları” ilə nəfəs almaq. Hər dəfə əzələləri daha uzun müddət gər. Daha sonra məşqi oturaraq və ya dayanaraq da sınaya bilərsən.</p>
+<h2>Məşq: Plank (Düz lövhə)</h2>
+<p>Başlanğıc vəziyyəti: qarın üstə uzan, üç nöqtədə dayanın – dirsəklər paralel, dizlər və ayaq barmaqları. Qarın, torso və omba əzələlərini dart, dizləri yerindən qaldır və bədəni düz xəttə gətir. Bir neçə saniyə bu vəziyyətdə qal.</p>
+<p>Plankı müxtəlif variantlarla edin: əl uzatma plankı, yan plank və s. Yük səviyyəsini də dəyiş: bəzən maksimum müddət, bəzən interval (10 saniyə işləyirsən, 2 saniyə istirahət).</p>
+<h2>Qarın əzələlərinin kompleks işlənməsi</h2>
+<p>Ən yaxşısı, daxili qarın əzələlərini hər gün səhər məşqi zamanı işlətməkdir. Bir neçə həftə sonra korpus əzələlərinin tonusunda xoş dəyişikliklər görünəcək və qarın əzələləri möhkəmlənəcək.</p>
+<p>Qeyd: heç bir qarın məşqi yalnız yağ yandırmaq üçün kifayət deyil. Əgər həqiqətən qarının rəngini yaxşılaşdırmaq istəyirsənsə, əvvəlcə artıq yağı yandırmaq üçün məşqlər et.</p>
+<p>Daxili əzələləri statik məşqlərlə işlədərək daha idmançı bədən və dartılmış qarın əldə edə bilərsən. Hər gün 5 dəqiqə məşq et və nəticə tezliklə görsənəcək.</p>
+    </article>
+  </main>
+
+<h1 id="sine-ezeleleri"></h1>	
+ <main class="grid">
+    <article class="card">
+      <h1 class="title">SINƏ ƏZƏLƏLƏRİNİ NECƏ BÖYÜTMƏK OLAR?</h1>
+      <p style="text-align: center;">Əgər 100 dəfə qollar üzərində qalxıb-enə bilirsənsə, 25 kq-lıq qantel qaldırırsansa, amma sinə əzələləri böyümürsə, nə etmək lazımdır? İki həll yolu var…</p>
+      <img src='https://i.imgur.com/wLHaAF7.jpeg' alt="Qarın1">
+      <p>Sinə əzələləri böyümürsə, iki həll var: daha ağır qantellərə pul xərcləmək və ya bir əllə döşəmədən qollar üzərində qalxıb enməyi  öyrənmək. İkinci, daha büdcəli variant texnika biliyi tələb edəcək.</p>
+      <strong>Dabanlar</strong>
+      <p>Onların arasındakı məsafə hərəkətin çətinliyinə tərs mütənasibdir. Ayaqlar bir-birinə nə qədər yaxın olsa, başlanğıc vəziyyəti saxlamaq bir o qədər çətin olacaq və hərəkisin özü də daha ağır veriləcək.</p>
+      <strong>Çanaq və bel</strong>
+      <p>Çanağı qaldırma, beli qıvırma. Korpusu və ayaqları düz, əzələli bir xətdə saxlamağa çalış.</p>
+      <strong>Ayaqlar</strong>
+      <p>Dizlər tam düz olmalıdır, əzələlər – gərgin. Unutma ki, qollar üzərində qalxıb enmələr orqanizmə qlobal təsir edən hərəkətdir. Burada hətta ayaqları da boş buraxmaq olmaz.</p>
+      <strong>Sərbəst əl</strong>
+      <p>Hazırlıq səviyyəsindən asılı olaraq o, müxtəlif yerlərdə ola bilər. Ən çətin variant – arxada. Ən asan – sərbəst əl eyni tərəfli ayağın buduna söykənir.</p>
+      <strong>İşləyən əl</strong>
+      <p>İşləyən əzələlərə yükün bərabər paylanması üçün bilək çiyin oynağının tam altında olmalıdır. Əks halda vurğu ya deltoidlərə (bilək çiyindən öndədirsə), ya da trisepsə (bilək çiyindən arxadadırsa) yönələcək.</p>
+      <strong>Baş və baxış</strong>
+      <p>Başını çox yuxarı qaldırma, amma tam da aşağı salma. Boyun əzələlərini bir az gər və baxışını döşəmədə təxminən bir yarım metr qabaqdakı nöqtəyə yönəlt.</p>
+      <strong>Variantlar</strong>
+      <strong>Dizlər üzərində qollar üzərində qalxıb enmə</strong>
+      <strong>Əzələlər: </strong>sinə, deltoidlər, trisepslər.</p>
+      <p><strong>İcra:</strong> diz üstə dur, onları maksimum geniş qoy. Bir əlinlə döşəməyə dirən, digərini arxaya apar. Qalxıb-enmə et, çalış ki, döşlə döşəməyə toxunasan və belini qıvırmayasan.</p>
+      <p><strong>Əsas fərq:</strong> bu variantda kor əzələlərə düşən yükü xeyli azaldırsan və balansı saxlamağı özün üçün asanlaşdırırsan. Qalan hallarda bu kifayət qədər çətin hərəkətdir, xüsusən də çəkisi normadan artıq olanlar üçün.</p>
+      <p><strong>Nə vaxt istifadə etməli:</strong> bir əllə qalxıb-enmə öyrənərkən köməkçi hərəkət kimi. Və ya bir əllə klassik qalxıb-enmələri maksimum edəndən sonra “son zərbə” vasitəsi kimi.</p>
+      <strong>Əl qaldırmaqla qalxıb-enmə.</strong>
+      <p><strong>Əzələlər: </strong>sinə, deltoidlər, trisepslər, kor və belin orta əzələləri.</p>
+      <p><strong>İcra:</strong> adi qollar üzərində qalxıb enmə vəziyyətinə gir, hərəkəti et və yuxarı nöqtədə bir əli düz irəli uzat. Bir saniyə saxla, əli döşəməyə qaytar və təkrar et, amma bu dəfə digər əli irəli uzat.</p>
+      <p><strong>Əsas fərq: </strong>bu daha çətin köməkçi variantdır. Əsas faydası ondan ibarətdir ki, səni üç dayaq nöqtəsində balans saxlamağı öyrədir.</p>
+      <p>Nə vaxt istifadə etməli: bir əllə qalxıb-enmə daha yüngül alternativ kimi və ya kor məşqinə əlavə kimi.</p>
+      <strong>Bir əllə medbol üzərində qalxıb-enmə.</strong>
+      <strong>Əzələlər:</strong> tam kor, trisepslər, sinə.</p>
+      <p><strong>İcra: </strong>qollar üzərində qalxıb enmə vəziyyətinə gir, bir əli medbolun üstünə, digərini döşəməyə qoy. Qalxıb-enmə et və dayanmadan döşəmədəki əli qaldır, yalnız top üzərindəki əllə balans saxla. Yuxarı nöqtədə bir saniyə saxla, başlanğıca qayıt və təkrar et.</p>
+      <p><strong>Əsas fərq:</strong> bu variantda işləyən ələ düşən yük bir əllə klassik qalxıb-enmə ilə müqayisədə belə artır. Top kimi qeyri-sabit dayaq kor əzələləri balansı saxlamaq üçün əlavə işləməyə məcbur edir.</p>
+      <p><strong>Nə vaxt istifadə etməli:</strong> evdə əsas “sinə” və ya triseps hərəkəti kimi. Və ya bir əllə adi qalxıb-enmə alternativi kimi, əgər onlar artıq darıxdırıcı olubsa.</p>
+    </article>
+  </main>
+
+<h1 id="sine-ezeleleri-qantel"></h1>	 
+ <main class="grid">
+    <article class="card">
+	<h1 class="title">Sinə əzələlərini qantel və ştanqsız inkişaf etdirmək olar.</h1>
+<img src='https://i.imgur.com/PrHdHRV.jpeg' alt="Sinə əzələsi">
+<p>Zala getmək imkanı yoxdur? Problem deyil. Adi ev şəraiti kifayətdir, əsas odur ki, istəyin olsun. BAZMAN.AZ sənə heç bir dəmir avadanlıq olmadan sinə əzələlərini relyefli etmək üçün məsləhətlər təqdim edir.</p>
+<h3>Faza I</h3>
+<p>Standart jim hərəkəti</p>
+<p>Əllər çiyin səviyyəsində, 10–15 təkrar. Fasilə 1–2 dəqiqə. Həftədə 3 dəfə. 2 həftəyə nəticə görünəcək.</p>
+ <img src='https://i.imgur.com/3DOrvRD.jpeg' alt="Sinə əzələsi2">
+<p>Alternativ jim hərəkəti</p>
+<p>Bir dəfə şınas et, sonra sağ əli sola yaxınlaşdır, sonra sol əli çiyin səviyyəsinə qoy. Yenə şınas et. Daha sonra əlləri dəyişdirərək təkrarla. Bir təkrar iki adi şınasa bərabərdir.</p>
+ <img src='https://i.imgur.com/jnInwOK.jpeg' alt="Sinə əzələsi3">
+<p>Dar tutuş jim hərəkəti</p>
+<p>Əlləri bir-birinə yaxın qoy, baş barmaqlar toxunsun. 10–15 təkrar, fasilə 1–2 dəqiqə. Sinə ilə yanaşı trisepslər də işləyir.</p>
+<img src='https://i.imgur.com/cmOpQOc.jpeg' alt="Sinə əzələsi4">
+<h3>Faza II</h3>
+<p>Jim hərəkəti dayaqla</p>
+<p>Bir əli yerə, digərini qutuya (və ya yüksəklik) qoy. Hər əl üçün 4 yanaşma × 15 təkrar.</p>
+<img src='https://i.imgur.com/9zXWwqJ.jpeg' alt="Sinə əzələsi5">
+<p>Əl dəyişmə</p>
+<p>Sol əl qutuda, sağ düz. Sonra əlləri dəyiş. 4 yanaşma × 15 təkrar.</p>
+<img src='https://i.imgur.com/UbzhbYV.jpeg' alt="Sinə əzələsi6">
+<h3>Dar tutuş jim hərəkəti qutuda</h3>
+<p>Dayaqda dar tutuşla icra et. 4 yanaşma × 15 təkrar. Faza 2 → 3–5 həftə davam edir. Sinə relyefi nəzərə çarpır.</p>
+<img src='https://i.imgur.com/tsxaouP.jpeg' alt="Sinə əzələsi7">
+<p>Əllə tullanma</p>
+<p>Jim hərəkəti zamanı qutudan yerə və geriyə kəskin əl dəyişdir. Bu məşq 5–6-cı həftələrdə edilir.</p>
+<img src='https://i.imgur.com/dNJNwMO.jpeg' alt="Sinə əzələsi8">
+<h3>Faza III</h3>
+<p>Bu mərhələyə qədər sinə formalaşır, əzələlər güclənir. İrəliləməni saxlamaq üçün:</p>
+<p>Hər fazadan məşqləri növbə ilə et.</p>
+<p>4 yanaşma × 10 təkrar kifayətdir.</p>
+<p>2 gün məşq, 3 gün fasilə.</p>
+    </article>
+  </main>
+
+<h1 id="stanq"></h1>	 
+ <main class="grid">
+    <article class="card">
+	<h1 class="title">Uzanıqlı vəziyyətdə ştanqa təkan vermə texnikası</h1>
+<img src='https://i.imgur.com/njBHsoI.jpeg'alt="Uzanıq1">
+<p>Bu məşq bütün sinə əzələlərinin, böyük və kiçik sinə əzələlərinin, həmçinin trisepslərin, deltoid əzələlərinin, həmçinin dişli (serratus anterior) və qulaqcıq-çiyin (pectoralis minor və coracobrachialis) əzələlərinin inkişafına kömək edir.</p>
+<b>Uzanıqlı  vəziyyətdə ştanqa təkan vermə texnikası:</b>
+<p>Üfüqi skamya üzərində arxası ilə uzanın, əzələlərinizi skamya ilə sıx təmasda saxlayın, ayaqlarınızı isə bütün ayaq barmaqlarınızla yerə yerləşdirin.</p>
+<p>Ştanqı yuxarıdan tutaraq, əllərinizi çiyin genişliyindən bir az geniş tutun.</p>
+<p>Dərin nəfəs alın və ştanqı yavaş-yavaş sinə səviyyəsinə endirməyə başlayın, hər hərəkəti diqqətlə idarə edin.</p>
+<p>Daha sonra ştanqı yuxarı itələyin və hərəkət başa çatdıqda nəfəs verin.</p>
+<b>Güclü təkan üçün tətbiq ediləcək üsullar:</b>
+<p>Hər iki əlinizi ştanqın qamışını möhkəm şəkildə tutun ki, biləklər sabit vəziyyətdə olsun.</p>
+<p>Çənəni çəkin və başınızı skamya ilə mümkün qədər sıx təmasda saxlayın.</p>
+<p>Arxanı yüngül əyərək ştanqın endirilmə trayektoriyasını azaldın. Bu vəziyyət sinə qutusunu optimal mövqeyə gətirir və alt sinə əzələlərinin maksimal aktivləşməsini təmin edir.</p>
+<p>Sinəni qabağa çıxarmaqla ştanqın endirilmə trayektoriyasını azaldın.</p>
+<p>Təkan zamanı həmişə əzələləri skamya ilə sıx təmasda saxlayın.</p>
+<p>Ayaqları tam sabit saxlayın, dabanları yerə basın ki, bədənin stabilliyi təmin edilsin.</p>
+<b>Xüsusi diqqət yetirilməli məqamlar:</b>
+<p>1.Maksimal təhlükəsizlik üçün ştanqı tutarkən baş barmaq digər barmaqlara qarşı yerləşərək xüsusi bir “qıfıl” əmələ gətirməlidir.</p>
+<p>2.Baş barmaq ştanqı tam tutmasa, ştanq istənmədən sürüşüb üz, çənə və ya boyuna düşərək ciddi yaralanmalara səbəb ola bilər.</p>
+<b>Məşqin variantları:</b>
+<p>1.Arxanı yüngül əyərək alt sinə əzələlərinə yük verilir və belə halda ən böyük çəkini qaldırmaq mümkündür. Hərəkət zamanı belə diqqətli olmaq vacibdir ki, bel zədələnməsin.</p>
+<ul>
+  <li>Üfüqi vəziyyətdə və arxanı əyərək ştanqı endirmək trayektoriyasını qısaldır və daha ağır çəki qaldırmaq olur.</li>
+  <li>Baş və ayaqlar sabit qalmalıdır.</li>
+  <li>Əzələlər skamya ilə sıx təmasda saxlanmalıdır.</li>
+  <li>Bel ağrısı varsa, bu məşq sağalana qədər edilməməlidir.</li>
+  </ul>
+<p>2.Dirsekləri bədənə yaxın saxlayaraq əsasən deltoid əzələsinin, xüsusilə ön hissəsinin işləməsi təmin olunur.</p>
+<p>3.Tutma genişliyini dəyişərək sinə əzələlərinin müxtəlif hissələrini yükləmək mümkündür:</p>
+<ul>
+  <li>Dar tutma: sinənin orta hissəsi;</li>
+  <li>Geniş tutma: sinənin xarici hissəsi.</li>
+  </ul>
+<p>4.Ştanqın endirilmə trayektoriyasını dəyişdirərək müxtəlif sinə hissələrini işləmək olar:</p>
+<ul>
+  <li>Alt kənara endirmək: alt sinə əzələləri;</li>
+  <li>Ortaya endirmək: orta sinə əzələləri;</li>
+  <li>Klavikula (açıq əzələ) sahəsinə endirmək: üst sinə əzələləri.</li>
+  </ul>
+<p>5.Ayaqları yerindən qaldıraraq ştanqı bu vəziyyətdə tutmaq bel problemlərini aradan qaldırır və bütün diqqəti sinə əzələlərinə yönəldir</p>
+<ul>
+  <li>Bu vəziyyət belin həddindən artıq əyilməsinin qarşısını alır və ağrı riskini azaldır.</li>
+  <li>Bu variant alt sinə əzələlərində yükü azaldaraq yuxarı və orta sinə əzələlərinə yönəldir.</li>
+  </ul>
+  </article>
+  </main>
+  
+<h1 id="uzaniqli-qarin-ezeleleri"></h1>	
+ <main class="grid">
+    <article class="card">
+	<h1 class="title">Uzanıqlı vəziyyətdə qarın əzələləri hərəkəti</h1>
+	
+	<img src='https://i.imgur.com/YmtiHcu.jpeg' alt="Uzanıq1">
+	<p>Qarın presi, aşağı qarın əzələləri və relyef formalaşdırmaq üçün effektiv məşqdir. Sadə texnika və avadanlıq tələb etmədiyi üçün həm yeni başlayanlara, həm də təcrübəli idmançılara uyğundur.</p>
+<h3>Üstünlükləri</h3>
+<ul>
+  <li>Avadanlıq lazım deyil (yalnız döşək kifayətdir).</li>
+  <li>Sadə texnika.</li>
+  <li>Tez nəticə (bir neçə həftəyə qarın formaya düşür).</li>
+  <li>Təkbaşına icra olunur.</li>
+  <li>Qarın əzələləri bərabər inkişaf edir.</li>
+  </ul>
+<h3>İcra texnikası</h3>
+<ul>
+  <li>Döşəyin üzərinə arxası üstə uzan. Dizləri bük və ayaqları yerə qoy. Əlləri bədənin yanına uzat.</li>
+  <li>Rahatlaş, baxışlarını tavana yönəlt.</li>
+  <li>Dərin nəfəs al və çiyinlərini qaldır.</li>
+  <li>Bir neçə saniyə yuxarıda qal.</li>
+  <li>Nəfəsi verərək başlanğıc vəziyyətinə qayıt. Təkrar et.</li>
+  </ul>
+<p>Məşqi çətinləşdirmək üçün əlləri sinədə çarpazlamaq, baş arxasına qoymaq və ya ağırlıq əlavə etmək olar.</p>
+<img src='https://i.imgur.com/KfG8FQR.jpeg' alt="Uzanıq1">
+<h3>Tövsiyələr və növlər</h3>
+<ul>
+  <li>Hərəkəti “yorulana qədər” et. Arxanı çox qaldırma ki, qarın əzələlərinin tonusu itməsin.</li>
+  <li>Yan çevrilmə ilə dönmə – yuxarı qarın hissəsini inkişaf etdirir.</li>
+  <li>Yan dönmə – qarın yan əzələlərini işlədərək incə bel formalaşdırır.</li>
+  <li>Tərs dönmə – ombanı qaldırmaqla icra olunur, qan dövranını yaxşılaşdırır və qarın gərginliyini artırır.</li>
+  <li>Təkrar və yanaşma sayını tədricən artırmaq lazımdır ki, əzələlər daima yüklənsin və relyef inkişaf etsin.</li>
+  </ul>
+  </article>
+  </main> 
+  
+  <h1 id="mesq-etmek"></h1>	
+  <main class="grid">
+    <article class="card">
+	<h1 class="title">Məşq etmək istəyini necə qaytarmaq olar?</h1>
+<p style="text-align: center;">Sizi bir vaxtlar fitnes-kluba və ya idman zalına getməyə vadar edən səbəblər çox idi... amma indi məşq həvəsi xeyli azalıb. Niyə?</p>
+<img src='https://i.imgur.com/4msPU9m.jpeg' alt="Zala getmədən">
+<p>Sizi bir vaxtlar fitnes-kluba və ya idman zalına getməyə vadar edən səbəblər çox idi: çəki atmaq və sevdiyiniz cins şalvara sığmaq, qızınızı möhkəm sinə ilə təəccübləndirmək, tətildə özünüzü dəyişmək… Amma yay sona çatır, sevdiyiniz insan artıq maraqlı deyil, artıq kilolar atılıb (ya da qalıb) və məşq həvəsi xeyli azalıb. Niyə? Axı məşqlər sizə həqiqətən xoş gəlirdi… Bəzən buna şərait məcbur edir. Məsələn, yaşadığı yerin dəyişməsi: sevdiyiniz klub “yolda deyil” olduqda məşqlərə getmək çətinləşir. Bayramlar, tətillər adi rejimi pozur və məşqlərə qayıtmaq asan deyil. Lakin bir çox idmançılar belə çətinlikləri dəf edirlər, çünki əsas şeyi qoruyurlar: daxili həvəs və motivasiya.</p>
+<h3>Öz istəyinizi həyata keçirməyə çalışın, başqasının yox!</h3>
+<p>Uzunmüddətli məqsəd qoyun. “Həkim deyir, artıq arıqlamalıyam”, “sevgilim presimdə altı kubik istəyir” — bunlar sizin arzularınızla bağlı deyil, ona görə də işləməyəcək. Siz yalnız öz istəyinizi etməlisiniz, başqasının yox.</p>
+<h3Müddət müəyyən edin</h3>
+<p>Uzunmüddətli “fitnes romanı”nın əsas şərtlərindən biri vərdişdir. Bildiyimiz kimi, vərdiş 21 gün ərzində formalaşır. İdmanla isə bir az daha uzun çəkir, çünki hər gün məşq etmirsiniz. İlk vaxtlarda bunu unutmayın, bəlkə də özünüzü məşq etməyə məcbur etməli olacaqsınız. Bədənimiz yüklənməyə öyrəşməlidir ki, sonra bu, onun üçün həqiqi ehtiyac olsun.</p>
+<h3>Düşüncəsi oxşar insanlarla məşq edin</h3>
+<p>Sport klubunda uzun müddət qalmağın kiçik üsullarından biri də, ətrafınıza oxşar düşüncəli dostlar toplamaqdır. Psixoloqlar deyir ki, ikilikdə məşq edənlərin məşqləri tərk etmək ehtimalı daha azdır. İkilikdə daha əyləncəlidir və yüngül rəqabət ruhu yaranır. Əgər dostlarınız arasında məşq etmək istəyən yoxdursa, klubda kimlənsə tanış olun. Bu halda, ünsiyyətlə yanaşı, çoxlu məlumat və məsləhət də əldə edə bilərsiniz. Xüsusilə, əgər məşq partneriniz daha təcrübəli idmançıdırsa. Amma əsas odur ki, ikilikdə məşq edərkən də öz istəyinizi izləyin, başqasının yox.</p>
+<h3>Xəbərdar olmaq – silahlanmaq deməkdir!</h3>
+<p>Hər birimizdə fitnesi tərk etmək istəyi yarana bilər. Ən çox bu dövrlərdə olur:</p>
+<p>İkinci-üçüncü ay. İlk vaxtlar yeni təcrübələrdən və bədəninizin gündəlik həyatda çatışmayan fiziki yüklənmələrdən məmnun olursunuz. Sevinc hormonları aktiv istehsal olunur. Və birdən yenilik effekti yox olur. Yerinə “boz idman gündəlikləri” hissi gəlir.</p>
+<p>Altı-səkkiz ay. İlk uğurlardan sonra hər kəs ilk məyusluqları, yəni nəticələrin olmamasını keçirə bilmir. Bu anda fitnesdə özünüz üçün yenilik tapmağı və yükləmələri dəyişməyi öyrənmək vacibdir.</p>
+<p>Bir il. İnsan üçün ilk vaxt nöqtəsi olur ki, o artıq çox uzun müddətdir ki, fitnes-kluba gedir, hər şeyi bilir və bacarır. Bir tərəfdən, əgər məşqlər müntəzəm idisə, artıq vərdiş formalaşıb. Digər tərəfdən isə məşqlərdən əldə edə biləcəyiniz hər şeyi əldə etdiyinizi düşünürsünüz, ya da heç bir nəticə görmədiyinizi. Özünüz üçün fərqli bir məqsəd seçməyə çalışın, bu, sizdə məşq etmək həvəsini yenidən oyada bilər.</p>
+  </article>
+  </main>
+  
+ 
+</body>
