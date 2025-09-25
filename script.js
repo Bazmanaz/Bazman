@@ -1,3 +1,4 @@
+// script.js (təmiz versiya)
 const toggle = () => {
   const d = document.documentElement.classList.toggle('dark');
   localStorage.setItem('theme', d ? 'dark' : 'light');
@@ -17,11 +18,9 @@ const books = [
   { t: 'YÜKSƏK SƏVİYYƏLİ TAKTİKALAR', p: 0, img: 'https://i.imgur.com/w3wD8Bc.jpg', link: 'kitablar/Yuksek seviyyeli taktikalar.html' },
 ];
 
-// Yükləmə funksiyası
+// Yükləmə funksiyası (emailsiz, birbaşa WhatsApp)
 function yukle(ad, qiymet) {
-  const gmail = prompt('Gmailinizi daxil edin:');
-  if (!gmail) return;
-  const msg = `Kitab: ${ad}\nQiymət: ${qiymet} AZN\nGmail: ${gmail}`;
+  const msg = `Kitab: ${ad}\nQiymət: ${qiymet} AZN`;
   window.open(`https://wa.me/994778037177?text=${encodeURIComponent(msg)}`, '_blank');
 }
 
@@ -35,7 +34,7 @@ function setupBanner() {
         <img src="https://i.imgur.com/SpcmZXN.jpg/150x80?text=Yeni+Şəkil" alt="Banner Şəkil">
       </div>
       <div class="banner-text">
-        <p><strong>30 Sentyabra qədər-QADIN DİLİ e-kitabı CƏMİ 16 azn.</p>
+        <p><strong>30 Sentyabra qədər-QADIN DİLİ e-kitabı CƏMİ 16 azn.</strong></p>
       </div>
       <button class="close-btn">Bağla</button>
     </div>
@@ -64,8 +63,6 @@ function setupBanner() {
     }
   });
 }
-
-
 
 // DOM hazır olduqda
 window.addEventListener('DOMContentLoaded', () => {
@@ -129,4 +126,3 @@ window.addEventListener('DOMContentLoaded', () => {
   // Banner
   setupBanner();
 });
-
