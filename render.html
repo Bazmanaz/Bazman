@@ -1,0 +1,59 @@
+<style>
+/* Kontainer və arxa plan stilləri */
+.wrapper {
+  /* Məzmunu mərkəzləşdirmək üçün */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* Digər stil qaydaları */
+}
+
+/* Çəhrayı fonu kiçiltmək */
+.bg-2 {
+  height: 300px; /* Bu dəyəri istədiyiniz kimi dəyişə bilərsiniz */
+}
+
+/* Mətni yuxarı qaldırmaq */
+.content {
+  position: absolute; /* Hərəkət etdirmək üçün mütləq yerləşmə */
+  top: 50%; /* Kontainerin şaquli mərkəzinə yerləşdirmək */
+  transform: translateY(-50%); /* Dəqiq mərkəzləşdirmək */
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  /* Mətnin stilləri */
+}
+</style>
+
+<a href="kitablar.html" target="_blank">
+    <div class="wrapper">
+        <div class="bg-1"></div>
+        <div class="bg-2"></div>
+        <div class="container">
+            <div class="hero">
+                <img class="img-1" src="https://i.imgur.com/SpcmZXN.jpg" alt="Kitab 1">
+                <img class="img-2" src="https://i.imgur.com/IS2DQl8.jpg" alt="Kitab 2">
+                <img class="img-3" src="https://i.imgur.com/fxo5sUc.jpg" alt="Kitab 3">
+                <img class="img-4" src="https://i.imgur.com/yZ9zPeo.jpg" alt="Kitab 4">
+                <img class="img-5" src="https://i.imgur.com/3aodR8x.jpg/seed/a3" alt="Kitab 5">
+                <img class="img-6" src="https://i.imgur.com/kwMqYGO.jpg" alt="Kitab 6">
+                <img class="img-7" src="https://i.imgur.com/kcfFDWH.jpeg" alt="Kitab 7">
+                <img class="img-8" src="https://i.imgur.com/ERKHrOJ.jpg" alt="Kitab 8">
+                <img class="img-9" src="https://i.imgur.com/PlhrJHZ.jpg" alt="Kitab 9">
+                <img class="img-10" src="https://i.imgur.com/w3wD8Bc.jpg" alt="Kitab 10">
+            </div>
+
+            <div class="content">
+                <div class="title">Kitabları əldə et!<br>
+                    Özünü inkişaf etdir.</div>
+            </div>
+        </div>
+    </div>
+</a>
